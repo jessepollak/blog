@@ -9,14 +9,13 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Jekyll Bootstrap
-tagline: Site Tagline
+title : Jesse Pollak
+tagline: Discussing what comes to my mind
 author :
-  name : Name Lastname
-  email : blah@email.test
-  github : username
-  twitter : username
-  feedburner : feedname
+  name : Jesse Pollak
+  email : jpollak92@gmail.com
+  github : jpollak92
+  twitter : jessepollak
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -100,10 +99,6 @@ JB :
     provider : google 
     google : 
         tracking_id : 'UA-123-12'
-    getclicky :
-      site_id : 
-    mixpanel :
-        token : '_MIXPANEL_TOKEN_'
 
   # Settings for sharing helper. 
   # Sharing is for things like tweet, plusone, like, reddit buttons etc.
