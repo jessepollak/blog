@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Day 3: Lunch with a Friend, Dinner with some Founders"
+title: "Day 3: Lunch with a Friend, Dinner with Some Founders"
 description: ""
 category: 
 tags: []
