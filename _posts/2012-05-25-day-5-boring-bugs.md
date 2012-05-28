@@ -11,7 +11,7 @@ tags: []
 
 Today's a short post for two reasons: (1) nothing really interesting happened today (my notebook was pretty much empty at the end of the day) and (2) it's my first friday in NYC. I'm getting into the flow at work; time passes quickly, I tackle tasks and move on to others, and I'm finally starting to feel like part of the team. Today, I finished up V2.0 of the real time analytics dashboard; now it has live graph previews, graph editing, auto saving, and some nice UX things that were definitely necessary. After I thought I was in a good place with that, I started working on a part of the backend for it. Right now, the analytics backend uses a protocol called UDP to send stats to the server, which processes them. Unfortunately, client side code (i.e. javascript on the front end) cannot send data using UDP, so we have to create a bridge for it. I'm working to create a server that accepts POST requests from client side javascript, processes the data, then uses UDP to send the info to the analytics server. Pretty cool stuff—and I'm learning a lot about UDP, sockets, and servers.
 
-My **one big thing learned** (if you're confused what that means, [see my first post](http://jpollak92.github.com/2012/05/21/day-1-dont-be-afraid-to-ask-questions/)) was how UPD works and what the difference is between it and TCP/IP.
+My **one big thing learned** (if you're confused what that means, [see my first post](http://jpollak92.github.com/2012/05/21/day-1-dont-be-afraid-to-ask-questions/)) was how UDP works and what the difference is between it and TCP/IP.
 
 Here are my (brief) **new and little learnings, tricks and tips**:
 
