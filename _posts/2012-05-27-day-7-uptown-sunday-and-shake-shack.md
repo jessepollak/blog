@@ -13,7 +13,7 @@ Just like yesterday, I'll start today's post with last night. After writing yest
 
 ![Street walk](http://distilleryimage1.instagram.com/1aaf10baa85d11e1b2fe1231380205bf_7.jpg)
 
-Before dinner, we popped up onto the Highline Park and wandered for a while. I have to admit, it is probably the nicest park I have ever been to. The juxtoposition between the its beautiful flora and the tall buildings surrounding it is amazing. Plus, with a view onto the water, it sets up some amazing sunset moments:
+Before dinner, we popped up onto the Highline Park and wandered for a while. I have to admit, it is probably the nicest park I have ever been to. The juxtoposition between the beautiful flora and the tall buildings is amazing. Plus, with a view onto the water, it sets up some amazing sunset moments:
 
 ![Sunsent](http://distilleryimage4.instagram.com/69fa1c82a81711e1989612313815112c_7.jpg)
 
@@ -29,8 +29,8 @@ Today, I went uptown around lunch to meet up with David and Nissa Gustafson. The
 
 Nissa gave us some delicious greens and we wandered across the Great Lawn (with David posing as a model):
 
-![Great Lawn](http://statigr.am/p/200869092144796555_657387)
+![Great Lawn](http://distilleryimage7.instagram.com/62ab0d42a85d11e1a39b1231381b7ba1_7.jpg)
 
 Tonight, we tried to go bowling, but it was 21+ then headed to Shake Shack for burgers and shakes. It was underwhelming...waaayyy too much hype. 
 
-And the Nats swept the Braves!
+With the Nats sweeping the Braves tonight, it was an overall great weekend.
