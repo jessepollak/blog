@@ -32,5 +32,5 @@ After coding at BuzzFeed for ~9 hours, coding at home with the hackNY fellows fo
 If I tell myself that I'll write something down in my notebook later, I'll forget it. If I say that I'll write two posts tomorrow, I won't do either. I mentioned it earlier, but I need to remain disciplined if I want to reach my goals. Already this week, I've been tempted to put things off: I must avoid the temptation.
 
 
-If you want to follow my journey and read my thoughts, follow me on Twitter [here](http://twitter.com/jessepollak) and keep coming back to [my blog](http://jpollak92.github.com).
+If you want to follow my journey and read my thoughts, follow me on Twitter [here](http://twitter.com/jessepollak) and keep coming back to [my blog](http://jessepollak.me).
 
