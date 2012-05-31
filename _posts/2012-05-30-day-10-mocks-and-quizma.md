@@ -62,5 +62,6 @@ And, **some fun things!**
 * A prime quote: "For curing cancer....the product/market fit is already there"
 * Justin Schaffer, an big Facebook PM, was supposedly the MVP tech liason of the first hackNY hackathon--he stayed up all night and helped people with problems that had nothing to do with his product at the time
 * Betaworks shares it's building with a bunch of super model agencies or something...
+* Supposedly, 'quiza' means "meant to be" in some language/dialect--overheard in a conversation with Chris Wiggins
 
 10 days down, 60 to go. I'm feeling good, learning a ton, and loving life. NYC is awesome.
