@@ -7,7 +7,8 @@ tags: []
 ---
 {% include JB/setup %}
 
-**EDIT: Originally, this post was titled 'Day 10: Mocks and Quizma'; however, I horribly misspelled kismet. This has now been fixed.
+**EDIT: Originally, this post was titled 'Day 10: Mocks and Quizma'; however, I horribly misspelled kismet. This has now been fixed.**
+
 *I'm Jesse Pollak, a rising sophomore at Pomona College outside of Los Angeles. This summer, I'm a hackNY Fellow and technical intern at BuzzFeed. I'm living in Union Square, working in the Flatiron District, gradually finding my way around NYC, and hoping to learn as much as possible (about anything and everything). To assist in that learning process, I've decided to write a blog post every day (I've never been able to last longer than a week, so wish me luck): today is day 10.*
 
 Another early morning, another chance to shy away from my commitments. Getting up is never easy; getting up early to work out for an hour before you head to work for the whole day and know you won't be getting back until 10:30 is nearly impossible. Somehow, I managed to pull myself out of bed, slide on my shoes, and tromp down to the gym. Palladium's gym is beautiful: lovely pool, basketball court, free spin class, nice weight room, snack bar; they've got everything. After an hour of chest exercises, however, the loveliness didn't mean much: my arms were drooping as I dried myself off outside the shower.

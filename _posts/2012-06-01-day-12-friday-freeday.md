@@ -7,7 +7,7 @@ tags: []
 ---
 {% include JB/setup %}
 
-*I'm Jesse Pollak, a rising sophomore at Pomona College outside of Los Angeles. This summer, I'm a hackNY Fellow and technical intern at BuzzFeed. I'm living in Union Square, working in the Flatiron District, gradually finding my way around NYC, and hoping to learn as much as possible (about anything and everything). To assist in that learning process, I've decided to write a blog post every day (I've never been able to last longer than a week, so wish me luck): today is day 11.*
+*I'm Jesse Pollak, a rising sophomore at Pomona College outside of Los Angeles. This summer, I'm a hackNY Fellow and technical intern at BuzzFeed. I'm living in Union Square, working in the Flatiron District, gradually finding my way around NYC, and hoping to learn as much as possible (about anything and everything). To assist in that learning process, I've decided to write a blog post every day (I've never been able to last longer than a week, so wish me luck): today is day 12.*
 
 Yeah, the title has no real meaning, just going to get that out of the way. I was trying to think up a good title and couldn't, so I chose the first thing to come to mind: Friday Freeeeday. As it is a Friday at 9:00, and I'm trying to get out of the apartment before 9:30, this post will be short.
  
