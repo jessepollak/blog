@@ -11,7 +11,7 @@ tags: []
 
 It wasn't the sunny day I was hoping for, but the weather was certainly better than yesterday. The morning started off with me walking 10 blocks in the opposite direction of my office to pick up my NYU ID card (which has one of the worst photos of me ever taken), then 20 blocks back to my desk at BuzzFeed. Once there, I started work on the front end for the real time analytics dashboard I'm building for BuzzFeed. Here's a screenshot of my progress by the end of the day:
 
-![Screenshot](http://f.cl.ly/items/3z3V3h2h293k451d1w3B/Screen%20shot%202012-05-22%20at%2010.44.29%20PM.png)
+![Screenshot](http://f.cl.ly/items/2V3F3P1t2w3Z2U1d3h3U/dashboard.png)
 
 It's coming along quickly, now I just need to get the real data working and we should be good to go!
 
