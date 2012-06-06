@@ -13,7 +13,7 @@ Yeah, the title has no real meaning, just going to get that out of the way. I wa
  
 The day was straightforward: gym at 8am, work at 9:30, home at 7:45pm, dinner at a slider place at 8pm, adventures in the city now.
 
-The  **one big thing learned today** (if you're confused what that means, [see my first post](http://jpollak92.github.com/2012/05/21/day-1-dont-be-afraid-to-ask-questions/)) was Perl. By the end of today, I really started to feel like I had a real grasp on how the language works. By no means do I know it well, but everything is starting to make sense. Secondarily, I started getting more comfortable with d3.js since I was using it to graph some of the data I was using Perl to get. Here's a screenshot of the first prototype of the visualization I'm working on:
+The **one big thing learned today** (if you're confused what that means, [see my first post](http://jpollak92.github.com/2012/05/21/day-1-dont-be-afraid-to-ask-questions/)) was Perl. By the end of today, I really started to feel like I had a real grasp on how the language works. By no means do I know it well, but everything is starting to make sense. Secondarily, I started getting more comfortable with d3.js since I was using it to graph some of the data I was using Perl to get. Here's a screenshot of the first prototype of the visualization I'm working on:
 
 ![Visualization](http://cl.ly/3J0x0J3f2L2g291I3H0K/Screen%20shot%202012-06-01%20at%206.46.42%20PM.png)
 
