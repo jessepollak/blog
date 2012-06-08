@@ -3,3 +3,5 @@ http://techcrunch.com/2012/06/05/any-dos-to-do-list-app-hits-100000-ios-download
 Clear
 Others
 Because they **want** to get things done and it provides an easy way to **think** that you are.
+
+don't send me a message telling me that i've unsubscribed from your newsletter—I know, I just did it
