@@ -7,7 +7,7 @@ tags: []
 ---
 {% include JB/setup %}
 
-*I'm Jesse Pollak, a rising sophomore at [Pomona College](http://pomona.edu). This summer, I'm a [hackNY](http://hackny.org) Fellow and technical intern at [BuzzFeed](http://buzzfeed.com). To assist in my learning process, I've decided to write a blog post every day: today is day 18. You can [follow me on twitter](http://twitter.com/jessepollak) or keep reading my [blog](http://jessepollak.me)*
+*I'm Jesse Pollak, a rising sophomore at [Pomona College](http://pomona.edu). This summer, I'm a [hackNY](http://hackny.org) Fellow and technical intern at [BuzzFeed](http://buzzfeed.com). To assist in my learning process, I've decided to write a blog post every day: today is day 21. You can [follow me on twitter](http://twitter.com/jessepollak) or keep reading my [blog](http://jessepollak.me)*
 
 It's officially been 3 weeks since I relocated to NYC and started my time with [hackNY](http://hackny.org) and [BuzzFeed](http://buzzfeed.com). It's very possible that in the last 3 weeks, I've spent more hours coding (and doing things related to development) than I have in my entire life. And, if you've been reading this blog, you probably know that I've learned a whole lot; if you haven't, just trust that I have.
 

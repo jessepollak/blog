@@ -7,7 +7,7 @@ tags: []
 ---
 {% include JB/setup %}
 
-*I'm Jesse Pollak, a rising sophomore at [Pomona College](http://pomona.edu). This summer, I'm a [hackNY](http://hackny.org) Fellow and technical intern at [BuzzFeed](http://buzzfeed.com). To assist in my learning process, I've decided to write a blog post every day: today is day 18. You can [follow me on twitter](http://twitter.com/jessepollak) or keep reading my [blog](http://jessepollak.me)*
+*I'm Jesse Pollak, a rising sophomore at [Pomona College](http://pomona.edu). This summer, I'm a [hackNY](http://hackny.org) Fellow and technical intern at [BuzzFeed](http://buzzfeed.com). To assist in my learning process, I've decided to write a blog post every day: today is day 19. You can [follow me on twitter](http://twitter.com/jessepollak) or keep reading my [blog](http://jessepollak.me)*
 
 This is by far the latest I've ever written (in fact, I technically broke my streak—but it doesn't count). Luckily, I'm not up for no reason—this evening I somehow managed to make it home and **surprise** my mom and friends. To say the least, she loved it (and I'm sure she'll be reading this). Since it is so late, this is not going to be a very long post.
 

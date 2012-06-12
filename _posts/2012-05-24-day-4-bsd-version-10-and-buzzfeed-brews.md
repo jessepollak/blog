@@ -27,6 +27,6 @@ Second to last, the  **new thing I want to learn and/or accomplish in the next f
 And finally, **some fun things**:
 
 * I met and talked with Jonah Peretti (the co-founder of HuffPo and founder of BuzzFeed)
-* Every other Thursday, BuzzFeed has 'Brews' where we get pizza and drink beer and all of the new people introduce themselves
+* Every other Thursday, BuzzFeed has 'Brews' where the office brings in food and drinks for everyone and all of the new people introduce themselves
 * Since it was Brews today, I introduced myself and told the story of how I slept walked and tried to pee in my mom's closet over last Thanksgiving
 * The sour cream in the Chipotle I went to today was odd (maybe old...)
