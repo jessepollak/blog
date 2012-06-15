@@ -7,7 +7,7 @@ tags: []
 ---
 {% include JB/setup %}
 
-*I'm Jesse Pollak, a rising sophomore at [Pomona College](http://pomona.edu). This summer, I'm a [hackNY](http://hackny.org) Fellow and technical intern at [BuzzFeed](http://buzzfeed.com). To assist in my learning process, I've decided to write a blog post every day: today is day 22. You can [follow me on twitter](http://twitter.com/jessepollak) or keep reading my [blog](http://jessepollak.me)*
+*I'm Jesse Pollak, a rising sophomore at [Pomona College](http://pomona.edu). This summer, I'm a [hackNY](http://hackny.org) Fellow and technical intern at [BuzzFeed](http://buzzfeed.com). To assist in my learning process, I've decided to write a blog post every day: today is day 23. You can [follow me on twitter](http://twitter.com/jessepollak) or keep reading my [blog](http://jessepollak.me)*
 
 When I imagine what my life will be like 20 years down the road, it looks a lot like my day today. No, I don't plan on being an intern at BuzzFeed (hopefully, I will have progressed a little!), but the structure of today felt like something I could get used to.
 
