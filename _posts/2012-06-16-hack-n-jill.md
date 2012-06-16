@@ -12,3 +12,7 @@ tags: []
 As I mentioned yesterday, I'll be liveblogging the hackathon I'm participating in today, [Hack 'n Jill](http://hacknjill.com). Here we go!
 
 **8:08am**: Woke up 10 minutes later than usual and greeted my roommate with a war cry of "You're going down!!!" Neither of us really care about winning though. 
+
+**6:25pm**: I failed at liveblogging...it was too intense blog during the actual hacking. I'm sitting at the presentations and thought I'd share the teams.
+
+*Skip the Bus*: a ridesharing site to help you get to the Hamptons without taking a bus. Had a little hiccup with the code, but the design was great.
