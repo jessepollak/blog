@@ -18,3 +18,5 @@ As I mentioned yesterday, I'll be liveblogging the hackathon I'm participating i
 *Skip the Bus*: a ridesharing site to help you get to the Hamptons without taking a bus. Had a little hiccup with the code, but the design was great.
 
 *Hands Up*: a foursquare app that lets you meet other people checked into the same place. When you check in, you stick your phone in the air and anyone else who's sticking their phone in the air will be connected with you.
+
+*Have I Maybe*: an app that helps you generate random questions to ask for never have I ever, then count how many shots you've taken from "never having done something."
