@@ -7,7 +7,7 @@ tags: []
 ---
 {% include JB/setup %}
 
-*I'm Jesse Pollak, a rising sophomore at [Pomona College](http://pomona.edu). This summer, I'm a [hackNY](http://hackny.org) Fellow and technical intern at [BuzzFeed](http://buzzfeed.com). To assist in my learning process, I've decided to write a blog post every day: today is day 26. You can [follow me on twitter](http://twitter.com/jessepollak) or keep reading my [blog](http://jessepollak.me).*
+*I'm Jesse Pollak, a rising sophomore at [Pomona College](http://pomona.edu). This summer, I'm a [hackNY](http://hackny.org) Fellow and technical intern at [BuzzFeed](http://buzzfeed.com). To assist in my learning process, I've decided to write a blog post every day: today is day 27. You can [follow me on twitter](http://twitter.com/jessepollak) or keep reading my [blog](http://jessepollak.me).*
 
 As I mentioned yesterday, I'll be liveblogging the hackathon I'm participating in today, [Hack 'n Jill](http://hacknjill.com). Here we go!
 
@@ -22,3 +22,5 @@ As I mentioned yesterday, I'll be liveblogging the hackathon I'm participating i
 *Have I Maybe*: an app that helps you generate random questions to ask for never have I ever, then count how many shots you've taken from "never having done something."
 
 We just blew our presentation, enough said.
+
+Oh, forgot this, but you can find the app we created at [http://www.andut.com](http://www.andut.com). Tell me what you think!
