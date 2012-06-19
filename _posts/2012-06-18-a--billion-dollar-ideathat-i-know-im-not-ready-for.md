@@ -38,3 +38,5 @@ Luckily, I've also come to realize something else.
 # That's OK.
 
 Maybe, right now I'm not ready, but give me a few months and who knows what will happen. In the meantime, I'll be learning as much as possible, as quickly as possible, in as many ways and places as possible, from as many people as possible.
+
+*Discussion on [Hacker News](http://news.ycombinator.com/item?id=4130035).*
