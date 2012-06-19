@@ -1,0 +1,19 @@
+---
+layout: page
+title: Jesse Pollak
+tagline: Discussing what comes to mind
+---
+{% include JB/setup %}
+
+
+<p>Rising sophomore at <b>Pomona College</b>. Current <b>hackNY Fellow</b>. Technical intern at <b>BuzzFeed</b>. Living in <b>Union Square</b>. Working in the <b>Flatiron District</b>. Learning as much as possible (about anything and everything).</p>
+
+<p>Follow me on <a href='http://twitter.com/jessepollak'>Twitter</a>, friend me on <a href='http://facebook.com/jessepollak'>Facebook</a>, and fork my code on <a href='http://github.com/jpollak92'>Github</a>. Or, check out the <a href='/about.html'>about page</a> for my latest projects.</p>
+  
+<ul class="posts">
+  {% for post in site.posts limit: 15 %}
+    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
+
+Visit the <a href='/archive.html'>archive</a> for more!
