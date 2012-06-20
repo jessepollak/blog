@@ -35,7 +35,7 @@ Here's the biggest lesson I've learned from the whole ordeal.
 
 If we keep forging onward, creating things, showing them to people, and believing that we are amazing, then who knows? Maybe we really will be amazing.
 
-*Follow the discussion on [Hacker News](http://news.ycombinator.com/item?id=4135262).
+*If you enjoyed this post, check out the discussion on [Hacker News](http://news.ycombinator.com/item?id=4135262).
 
 
 
