@@ -23,3 +23,4 @@ If Facebook accomplished its goal of unifying the online identity into a single 
 
 I don't foresee Facebook succeeding (in the sense I'm talking about) any time soon, but I still think it's important to realize what's at stake.
 
+*If you enjoyed this post, follow the discussion on [Hacker News](http://news.ycombinator.com/item?id=4140440)*.
