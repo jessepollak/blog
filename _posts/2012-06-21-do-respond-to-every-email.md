@@ -31,3 +31,5 @@ Now, when I say every email, I mean every *real, sincere* email (not from a recr
 3. Once I hit the bottom, start at the top again and respond to all of the important emails with more thought
 
 All in all, I probably "waste" ~5 minutes per session responding to emails that would otherwise be deleted. While I understand that my email load is nowhere near that of Ryan's, I know what it feels like to never hear back from someone and believe that those 5 minutes are worth it. Besides, who knows who you're ignoring—taking 5 seconds to make a good impression could mean a lot sometime down the road.
+
+*If you enjoyed this post, follow the discussion on [Hacker News](http://news.ycombinator.com/item?id=4145291).*
