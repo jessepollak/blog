@@ -11,9 +11,9 @@ tags: []
 
 The other morning, I woke up to the following email from a friend:
 
-> This is an email you don't have to respond to.
->
-> I love you, you are an inspiration, I love your blog, keep doing.
+    This is an email you don't have to respond to.
+    
+    I love you, you are an inspiration, I love your blog, keep doing.
 
 I didn't put this up here to brag. I don't think I'm an inspiration; I think I'm a pretty average kid. The whole liking the blog thing is subjective; some may like it others may not. I put this up here to demonstrate how unbelievably lucky I am to have some of the best friends and family a young man could ask for.
 
