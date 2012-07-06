@@ -36,3 +36,5 @@ While this may not be the team I spend the rest of my career with, I can honestl
 # Treat others the way you want to be treated
 
 It's a saying I learned in Quaker school, but it applies to almost every situation. I don't want to be undermined, so I shouldn't undermine anyone else—consciously or unconsciously. 
+
+*If you're interested, follow the discussion [Hacker News](http://news.ycombinator.com/item?id=4206147).*
