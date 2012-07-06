@@ -9,6 +9,13 @@ tags: []
 
 *I'm Jesse Pollak, a rising sophomore at [Pomona College](http://pomona.edu). This summer, I'm a [hackNY](http://hackny.org) Fellow and technical intern at [BuzzFeed](http://buzzfeed.com). To assist in my learning process, I've decided to write a blog post every day: today is day 45. You can [follow me on twitter](http://twitter.com/jessepollak) or keep reading my [blog](http://jessepollak.me).*
 
+**EDIT: Wow, this got a more intense reaction than I expected. To be clear, my partner and I worked out our differences and both learned a lot from the experience. Both of us are still young, still learning, and taking everything on day at a time.**
+
+**If you're interested, here's [her thoughts on the story](http://grungerabbit.tumblr.com/post/26629033269/on-dont-f-ing-trim-the-copy) (and a lovely addendum on "racism, sexism, and feeling like a perpetual outsider"). She is a wonder to work with, a terrific writer, and a magnificent designer—I strongly encourage you to read her post and to check out her work.**
+
+-----------------------
+  
+</br>
 # "You fucking trimmed my copy."
 
 I saw it in the message preview before I'd even opened up the email. Instantly, I knew I'd done something wrong, but it took me a few seconds to piece together what a stupid mistake it had been.
