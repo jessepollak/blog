@@ -13,19 +13,19 @@ tags: []
 
 I saw it in the message preview before I'd even opened up the email. Instantly, I knew I'd done something wrong, but it took me a few seconds to piece together what a stupid mistake it had been.
 
-A little backstory: right now, I'm building [Mentor.im](http://mentor.im) in preparation for the [AngelHack](http://angelhack.com) finals next week. We placed in NYC, so we're being flown out to SV to pitch investors—an amazing opportunity. The problem is, there have only been 2.5 weeks from conception to pitch, so we've been working long, tiring, after-work hours, to turn the product from a hackathon build to a full fledged company. At 6am this morning, on the bus from Woodstock (where I spent the 4th of July) to Manhattan (where I had work at 9am) I decided to put in some hours on our landing page.
+A little backstory: right now, I'm working on a project with a group of other people. At 6am this morning, on the bus from Woodstock (where I spent the 4th of July) to Manhattan (where I had work at 9am) I decided to put in some hours on our landing page.
 
 # You can't be the best at everything
 
-The last two days, while I'd been relaxing in the rivers and mountains of upstate NY, one of my cofounders had been tirelessly building the landing page. I'm not particularly good at design or copy, so I placed the entire product in her hands. Unsurprisingly, she returned an absolutely beautiful page, filled with captivating and engrossing copy. While I'm usually pretty good at deferring "product" decisions to other people, something about a long, early morning bus ride had me digging into the copy she'd literally spent hours crafting.
+The last two days, while I'd been relaxing in the rivers and mountains of upstate NY, one of my partners had been tirelessly building the landing page. I'm not particularly good at design or copy, so I placed the entire product in their hands. Unsurprisingly, they returned an absolutely beautiful page, filled with captivating and engrossing copy. While I'm usually pretty good at deferring "product" decisions to other people, something about a long, early morning bus ride had me digging into the copy they'd literally spent hours crafting.
 
 # Small things can undermine a relationship.
 
-As I often do when I get engrossed in something, I started nitpicking. First the language, then the length. While I changed nothing too substantial, my mark was obvious. Unfortunately, it wasn't obvious to me to tell her that I'd adjusted her work.
+As I often do when I get engrossed in something, I started nitpicking. First the language, then the length. While I changed nothing too substantial, my mark was obvious. Unfortunately, it wasn't obvious to me to tell them that I'd adjusted their work.
 
 # "I don't want to get mad but I sat there for FIVE HOURS crafting that yesterday, there's a reason for every word."
 
-It took a couple hours for her to realize, but when she did her frustration was obvious (see above). And, when she mentioned it, I instantly realized what a terrible thing I'd done. By changing the copy to what *I* thought was right, then pushing it live (because I manage deploys), I completely and entirely undermined her work on the project. Unconsciously, I had asserted that *I* had the right to make the final decision; a grave mistake, and a belief I can I honestly say I don't hold.
+It took a couple hours for them to realize, but when they did their frustration was obvious (see above). And, when they mentioned it, I instantly realized what a terrible thing I'd done. By changing the copy to what *I* thought was right, then pushing it live (because I manage deploys), I completely and entirely undermined their work on the project. Unconsciously, I had asserted that *I* had the right to make the final decision; a grave mistake, and a belief I can I honestly say I don't hold.
 
 # People are by far the most important thing 
 
