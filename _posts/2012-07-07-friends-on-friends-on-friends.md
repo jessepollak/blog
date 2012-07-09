@@ -9,7 +9,7 @@ tags: []
 
 *I'm Jesse Pollak, a rising sophomore at [Pomona College](http://pomona.edu). This summer, I'm a [hackNY](http://hackny.org) Fellow and technical intern at [BuzzFeed](http://buzzfeed.com). To assist in my learning process, I've decided to write a blog post every day: today is day 47. You can [follow me on twitter](http://twitter.com/jessepollak) or keep reading my [blog](http://jessepollak.me).*
 
-Seeing my friends has reminded me (a) how much I love college and (b) how I don't want to grow up to fast. Enjoy some pictures:
+Seeing my friends has reminded me how much I love them. Here are some pictures:
 
 ![city](http://distilleryimage3.s3.amazonaws.com/64527ab0c80411e19ab222000a1e8819_7.jpg)
 
