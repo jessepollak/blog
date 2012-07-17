@@ -7,13 +7,17 @@ tags: []
 ---
 {% include JB/setup %}
 
+![local maxima problem](http://90percentofeverything.com/wp-content/uploads/2011/01/local-maximum-porter-470x254.gif)
+
+</br>
+
 # "If you don't put yourself in the shoes of the user, you are going to create something that is delicately, and supremely, useless."
 
 Tonight, the [hackNY fellows](http://hackny.org) were lucky enough to hear from [Whitney Hess](http://whitneyhess.com), a UX Designer from NYC. While she doesn't run a startup in the classic sense, and many NYC "mentorship programs" have turned her away for exactly that reason, I can honestly say that the discussion we had tonight was one of the top 5—if not the best—talk I have ever heard in my life. While her views were by no means revolutionary, her ability to concisely explain both *why* and *how* she tackled each step; from stakeholder discussions, to user flows, to full on designs, was so powerful that it made me drastically reconsider the way I will approach problems in the future.
 
 In the footsteps of [Blake Masters, the Stanford student who recorded the notes for Peter Theil's Stanford class](http://blakemasters.tumblr.com), I thought I would summarize our discussion so it can be available to the greater web. While these are my words, all credit goes to [Whitney Hess](http://whitneyhess.com)—you should really, really, read [her blog](http://whitneyhess.com/blog), follow her on [twitter](http://twitter.com/whitneyhess) and see her speak.
 
-The format of this piece will be simple: first, I'll give a broad overview of the lessons she communicated, then I'll dive into each step and explain her rationales, tips, and advice.
+The format of this piece will be simple: first, I'll give a broad overview of the lessons she communicated. Then I'll dive into each step and explain her rationales, tips, and advice.
   
 </br>
 # Steps to successful UX design  
@@ -42,8 +46,6 @@ Accordingly, getting down the thoughts of each decision maker, then putting them
 As an additional benefit, if you can bring the decision makers into the process early, it can be easier to get them actively involved in the UX design. Often times, stakeholders have no *empathy* for their customers; in other words, they can't imagine another person's experiences. By bringing them into the UX process, they can start to understand how to design for other people rather than themselves.
 
 Because of these two-fold benefits, holding stakeholder interviews and discussions at the beginning of the UX design process can be crucial to success.
-
-[FILL IN WHAT THE QUESTIONS TO ASK ARE]
 
 </br>
 # Talk to current and future customers and ask what they want
@@ -94,13 +96,13 @@ With your set of interviews, start to focus the users into "primary" and "second
 
 At this point, you may be wondering how you craft personas if your business is B2B. Hess believes that, when you really dig deep, a company is a persona too. In reality, a company is a collection of humans, with probably a few leading personalities, who make decisions as a whole. Therefore, there's no real reason to treat companies any different from individual users.
 
+# Create user scenarios from the personas
+
 Once you have these primary and secondary personas, start creating user scenarios. Every user case should start with "I want to." For instance,
 
-"I want to quickly order food online."
-"I want to order the thing I ordered last time."
-"I want to..."
-etc
-etc
+- "I want to quickly order food online."
+- "I want to order the thing I ordered last time."
+- "I want to..."
 
 These clearly defined *wants* give a framework for creating the necessary features to implement.
 
@@ -111,21 +113,21 @@ Here, you really want to collect every "feature" across every area of the site. 
 
 Now, create a spreadsheet with all the features on the y-axis. On the x-axis, put columns for your primary personas, one column for "tech effort," and one column for "feature status."
 
-Next, weight your personas by importance. For instance, if you think one persona is 3/2 more important than the other, make it worth 3 points and the other worth 2.
+Next, weight your personas by importance. For instance, if you think one persona is 3/2 more valuable to your service than the other, make it worth 3 points and the other worth 2.
 
-For each feature, go through and rate each feature, for each persona:
+For each feature, go through and rate it's importance, for each persona:
 
-  - 2 -> love the feature
-  - 1 -> like and expect the feature
-  - 0 -> no feeling
-  - -1 -> hate the feature
+- 2 -> love the feature
+- 1 -> like and expect the feature
+- 0 -> no feeling
+- -1 -> hate the feature
   
 Now, add up the total, weighted, points for each feature and sort by number of points. From here, with the additional data on tech effort, you can go through and group the features into 4 categories:
 
-  - "Must have"
-  - "Should have"
-  - "Nice to have"
-  - "Won't have"
+- "Must have"
+- "Should have"
+- "Nice to have"
+- "Won't have"
   
 The entire process may take awhile, but at the end you'll have an ordered list of all the features you need and want to implement. Pretty valuable.
 
@@ -151,9 +153,5 @@ Work with a visual designer.
 
 That's what your best at, now make it happen.
 
-
-
-
-
-
+For a more in depth look in to becoming a UX designer, check out Whitney's [compilation of resources](http://whitneyhess.com/blog/2009/06/30/so-you-wanna-be-a-user-experience-designer-step-1-resources/).
 
