@@ -155,3 +155,4 @@ That's what your best at, now make it happen.
 
 For a more in depth look in to becoming a UX designer, check out Whitney's [compilation of resources](http://whitneyhess.com/blog/2009/06/30/so-you-wanna-be-a-user-experience-designer-step-1-resources/).
 
+*Discussion on [Hacker News](http://news.ycombinator.com/item?id=4257911).*
