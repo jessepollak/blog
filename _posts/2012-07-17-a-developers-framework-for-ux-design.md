@@ -7,6 +7,8 @@ tags: []
 ---
 {% include JB/setup %}
 
+*I'm Jesse Pollak, a rising sophomore at [Pomona College](http://pomona.edu). This summer, I'm a [hackNY](http://hackny.org) Fellow and technical intern at [BuzzFeed](http://buzzfeed.com). To assist in my learning process, I've decided to write a blog post every day: today is day 55. You can [follow me on twitter](http://twitter.com/jessepollak) or keep reading my [blog](http://jessepollak.me).*
+
 ![local maxima problem](http://90percentofeverything.com/wp-content/uploads/2011/01/local-maximum-porter-470x254.gif)
 
 </br>

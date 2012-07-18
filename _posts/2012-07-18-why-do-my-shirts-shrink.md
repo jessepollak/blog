@@ -7,6 +7,8 @@ tags: []
 ---
 {% include JB/setup %}
 
+*I'm Jesse Pollak, a rising sophomore at [Pomona College](http://pomona.edu). This summer, I'm a [hackNY](http://hackny.org) Fellow and technical intern at [BuzzFeed](http://buzzfeed.com). To assist in my learning process, I've decided to write a blog post every day: today is day 56. You can [follow me on twitter](http://twitter.com/jessepollak) or keep reading my [blog](http://jessepollak.me).*
+
 The literal answer is a bit confusing, but rather straightforward. According to a [knowledgeable poster on Quora](http://www.quora.com/Why-do-clothes-shrink-when-you-wash-them),
 
 *"Cotton and nylon and other common textiles used in clothing are all polymers.  A polymer completely stretched into a linear arrangement has a much lower entropy than a polymer "wound up"....when the material is put in the dryer, the heat energy breaks many of the crosslinking bonds.  When it slowly cools, it winds up into a higher entropy state, associated with shorter chain lengths, and tighter clothes."*
