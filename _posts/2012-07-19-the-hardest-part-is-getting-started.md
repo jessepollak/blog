@@ -26,4 +26,15 @@ To be honest, I don't know if this is a good idea. At least in my experience, so
 If we isolate people from this experience at the start, I think they are far less likely to be successful in the future.
 
 Thoughts?
-    
+
+**EDIT, some suitable metaphors raised in the comments:**
+
+*"And, if you let it be easy, then you'll never actually learn much, just like if you were trying to get in shape but never actually did anything hard or frustrating"*
+
+  <cite>-me</cite>
+
+</br>
+</br>
+![thingy](http://mediacdn.disqus.com/uploads/mediaembed/images/307/1208/original.jpg)
+
+   <cite>-zensavona</cite>
