@@ -7,6 +7,8 @@ tags: []
 ---
 {% include JB/setup %}
 
+*I'm Jesse Pollak, a rising sophomore at [Pomona College](http://pomona.edu). This summer, I'm a [hackNY](http://hackny.org) Fellow and technical intern at [BuzzFeed](http://buzzfeed.com). To assist in my learning process, I've decided to write a blog post every day: today is day 57. You can [follow me on twitter](http://twitter.com/jessepollak) or keep reading my [blog](http://jessepollak.me).*
+
 Even if no one finds this post interesting, that title will still keep me happy—I think it's one of my better moments of the summer.
 
 [Selenium](http://seleniumhq.org/) is a framework that allows you to write code that *automates browsers*. Primarily, it's used for writing automated tests of front end functionality on web applications—or at least that's what I've been doing with it. The functionality of Selenium is *very, very cool*; however, just like with most things, it's never as easy as it seems. While the commands are natural language ("click", "wait", "open"), they inevitability never work as expected. This means that often times things *seem* like they should be working, but they just aren't—and you don't really know what to do. For this reason, Selenium often has a reputation for "the worst" thing to be working on.
