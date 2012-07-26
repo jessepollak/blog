@@ -7,7 +7,7 @@ tags: []
 ---
 {% include JB/setup %}
 
-*I'm Jesse Pollak, a rising sophomore at [Pomona College](http://pomona.edu). This summer, I'm a [hackNY](http://hackny.org) Fellow and technical intern at [BuzzFeed](http://buzzfeed.com). To assist in my learning process, I've decided to write a blog post every day: today is day 62. You can [follow me on twitter](http://twitter.com/jessepollak) or keep reading my [blog](http://jessepollak.me).*
+*I'm Jesse Pollak, a rising sophomore at [Pomona College](http://pomona.edu). This summer, I'm a [hackNY](http://hackny.org) Fellow and technical intern at [BuzzFeed](http://buzzfeed.com). To assist in my learning process, I've decided to write a blog post every day: today is day 63. You can [follow me on twitter](http://twitter.com/jessepollak) or keep reading my [blog](http://jessepollak.me).*
 
 Earlier this summer, I was tasked with building some data visualizations and network monitoring tools for BuzzFeed. Wanting to learn something new, I decided to pick up the d3.js libray, which allows you to create beautiful Data Driven Documents. While d3.js is a javascript library, unlike most other libraries, d3.js actually involves writing your code using a different paradigm. Everything is centered around data, which you "bind" to DOM elements. At first, this was pretty confusing, but by the end of my project I felt pretty comfortable with the structure. And, by the end, I had built a few apps that displayed data in a way which I thought was beautiful and interactive. 
 
