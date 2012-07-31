@@ -32,7 +32,8 @@ Moving into an apartment with 3 other 'hackers,' and having 28 more live down th
 [Mentor.im](http://mentor.im)  
 [Treasure Hunter](http://amazonspider.herokuapp.com)  
 [Your Guess Is Wrong](http://yourguessiswrong.phpfogapp.com)  
-[Mr. Schemato](http://hack.parsely.com)  
+[Mr. Schemato](http://hack.parsely.com)
+[Fly Latex](http://github.com/alabid/flylatex)
 
 For even more, check out the [DemoDay video](http://new.livestream.com/hackNYlive/demofest2012/).
 
