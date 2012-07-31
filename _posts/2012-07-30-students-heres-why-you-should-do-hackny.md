@@ -79,3 +79,5 @@ Living with some of the smartest students in the country; working at some of the
 This was my first summer in tech, but after talking with other fellows, I can honestly say that this is an unbeatable experience. Yes, Facebook or Google are great, but I promise hackNY is an experience worth having.
 
 So, I urge you to apply for the [hackNY](http://hackny.org) fellowship program when applications open in the fall. Hopefully I'll be back in the city next year as a mentor and we'll get to hang!
+
+*p.s. if you enjoyed reading this, you should check out [the rest of my blog](http://jessepollak.me) and [follow me on twitter](http://twitter.com/jessepollak).*
