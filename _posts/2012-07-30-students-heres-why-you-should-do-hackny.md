@@ -9,7 +9,7 @@ tags: []
 
 **If you want to see the NYC tech scene flourish, share this piece with your networks and encourage any students you know to check out [hackNY](http://hackny.org).**
 
-**If you're a student, read this and consider applying for the program when applications open in September. I promise you that it is one of the best things you can do (according to one fellow, "I can CONFIRM that hackNY >>>>>> Google").**
+**If you're a student, read this and consider applying for the fellowship when applications open in September. I promise you that it is one of the best things you can do (according to one fellow, "I can CONFIRM that hackNY >>>>>> Google").**
 
 I'm Jesse Pollak, a student at Pomona College. This summer, I was lucky enough to participate in the [hackNY](http://hackny.org/a/) fellows program. If you don't already know, hackNY is a non-profit organization whose mission is to "*to federate the next generation of hackers for the New York innovation community*." In addition to holding twice annual student hackathons, each summer hackNY organizes the hackNY fellows program:
 
@@ -23,11 +23,11 @@ I go to school at [Pomona College](http://pomona.edu). There is no doubt that it
 
 Moving into an apartment with 3 other 'hackers,' and having 28 more live down the hall, was a mind-blowing experience. Having 30 programmers within a few steps meant that there was always someone who could help me with a problem or collaborate on a project. And, since these were some smart kids, I felt like I was constantly learning something new. But, don't trust me on their intelligence and abilities, check out *some* of the things they built this summer (mostly, in the time they weren't working a full time job):
 
-[Pup](dtdg.co/get-pup)  
+[Pup](http://dtdg.co/get-pup)  
 [Heads Up Hot Dog](http://emmettbutler.com/headsup/)  
 [Dablooms](https://github.com/bitly/dablooms)  
 [The Facebook Book](http://hackaday.com/2012/07/30/hackathon-results-in-the-facebook-book/)  
-[Anodyne](http://anodynegame.com)  
+[Anodyne](http://www.anodynegame.com)  
 [Facebook Nanny](http://bit.ly/FacebookNanny)   
 [Mentor.im](http://mentor.im)  
 [Treasure Hunter](http://amazonspider.herokuapp.com)  
@@ -52,9 +52,9 @@ And, BuzzFeed wasn't the only cool place. In fact, *all* of the startups fellows
 
 No matter where we worked, we all owned our features, made new friends, learned new things, worked in loving environments, and felt like a real part of the team.
 
-# The job and living environment isn't even the coolest part
+# The job and living environment wasn't even the coolest part
 
-Meeting some of the smartest people in the NYC tech scene is. Twice or three times a week, the 30 of us sat down for a casual conversation (over a free dinner) with some of the greatest minds in startups. We talked anonymity with [moot](http://en.wikipedia.org/wiki/Christopher_Poole), SOPA/PIPA with [Alexis Ohanian](http://en.wikipedia.org/wiki/Alexis_Ohanian), founding teams with [Chris Dixon](http://cdixon.org) and investing with [Fred Wilson and the Union Square Ventures partners](http://www.usv.com). In 10 weeks, in addition to the above, we were lucky enough to have personal conversations with:
+Meeting some of the smartest people in the NYC tech scene is. Two or three times a week, the 30 of us sat down for a casual conversation (over a free dinner) with some of the greatest minds in startups. We talked anonymity with [moot](http://en.wikipedia.org/wiki/Christopher_Poole), SOPA/PIPA with [Alexis Ohanian](http://en.wikipedia.org/wiki/Alexis_Ohanian), founding teams with [Chris Dixon](http://cdixon.org) and investing with [Fred Wilson and the Union Square Ventures partners](http://www.usv.com). In 10 weeks, in addition to the above, we were lucky enough to have personal conversations with:
 
 [Zach Sims and Ryan Bubinski, the founders of Codecademy](http://codecademy)  
 [Hursh, Cemre, and Josh, the founders of Branch (coming soon, awesome)](http://branch.com)  
@@ -76,6 +76,6 @@ You can learn a lot from reading Hacker News, but getting to ask whatever questi
 
 Living with some of the smartest students in the country; working at some of the coolest startups in NYC; meeting some of the most influential people in the startup scene. 
 
-This was my first summer in tech, but after talking with other fellows, I can honestly say that this is an unbeatable experience. Yes, Facebook or Google are great, but I promise you won't learn as much or have as much fun.
+This was my first summer in tech, but after talking with other fellows, I can honestly say that this is an unbeatable experience. Yes, Facebook or Google are great, but I promise hackNY is an experience worth having.
 
 So, I urge you to apply for the [hackNY](http://hackny.org) fellowship program when applications open in the fall. Hopefully I'll be back in the city next year as a mentor and we'll get to hang!
