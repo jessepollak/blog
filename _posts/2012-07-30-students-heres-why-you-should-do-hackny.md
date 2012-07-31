@@ -80,4 +80,6 @@ This was my first summer in tech, but after talking with other fellows, I can ho
 
 So, I urge you to apply for the [hackNY](http://hackny.org) fellowship program when applications open in the fall. Hopefully I'll be back in the city next year as a mentor and we'll get to hang!
 
+Also, attend the [hackNY Fall hackathon](http://hackny.org/a/2012/07/it-is-on-save-sept-29-30-2012-for-the-fall-2012-hackny-student-hackathon/) on September 29-30th.
+
 *p.s. if you enjoyed reading this, you should check out [the rest of my blog](http://jessepollak.me) and [follow me on twitter](http://twitter.com/jessepollak).*
