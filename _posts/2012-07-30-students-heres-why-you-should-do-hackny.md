@@ -7,6 +7,8 @@ tags: []
 ---
 {% include JB/setup %}
 
+**Applications for the 2013 hackNY fellow program have opened! Apply here: http://apply.hackNY.org. DO IT!**
+
 **If you want to see the NYC tech scene flourish, share this piece with your networks and encourage any students you know to check out [hackNY](http://hackny.org).**
 
 **If you're a student, read this and consider applying for the fellowship when applications open in September. I promise you that it is one of the best things you can do (according to one fellow, "I can CONFIRM that hackNY >>>>>> Google").**
