@@ -7,7 +7,7 @@ tags: []
 ---
 {% include JB/setup %}
 
-**Applications for the 2013 hackNY fellow program have opened! Apply here: http://apply.hackNY.org. DO IT!**
+**Applications for the 2013 hackNY fellow program have opened! Apply here: <a href='http://apply.hackny.org'>http://apply.hackny.org</a>. DO IT!**
 
 **If you want to see the NYC tech scene flourish, share this piece with your networks and encourage any students you know to check out [hackNY](http://hackny.org).**
 
