@@ -1,0 +1,26 @@
+---
+layout: post
+title: "Why Obama's reelection is good for young startupers"
+description: ""
+category: 
+tags: []
+---
+{% include JB/setup %}
+
+In case you didn't already know, on Tuesday, Barack Obama was re-elected as the President of the United States. As an avid Obama supporter, and die hard liberal, this was a huge victory for a variety of reasons: health care, a woman's right to choose, higher taxes on the wealthy, less war, etc. Today, however, I wanted to focus on a specific angle to why I believe an Obama victory was the best thing for this country: how President Obama's policies help young 'startupers' in America.
+
+**A more accessible education for all**. For many entrepreneurs, college is the place where they really start to hit their stride. Yes, some of the most successful founders have dropped out, but they've also often found their co-founders through the friendships they made on campus. And, for those who stay, there's little doubt that both a college education and degree, and the networks that one makes during those years, are hugely valuable in starting a business. In his time in office, President Obama has double funding for Pell Grants, allowing them to reach nearly 10 million students, and introduced crucial legislation that caps federal loan repayments at 10% of income, allowing students to get a college degree without destroying the following 10 years of their lives with debt. These initiatives have made it easier for millions of students to get a college education--a boon for young entrepreneurs. Governor Romney had pledged to repeal both of these programs.
+
+**Easier, and cheaper, healthcare**. This one may be the most important. Under Obamacare, young people can stay on their parent's health care plans until age 26--providing a huge layer of support that would otherwise be missing in those early startup years. Combined with new coverage options, this means that 3.1 *million* previously uninsured young people will have health insurance, freeing thousands of young entrepreneurs from the ever creeping fear over how to handle health problems. Furthermore, once young people have their small companies off the ground, Obamacare makes it cheaper to get health insurance for their employees. Before Obamacare, small businesses payed on average 18% more for healthcare than big businesses, with Obamacare, the playing field is leveled. Governor Romney had pledged to repeal Obamacare.
+
+**Fair pay for women.** Whether they are founding a startup, or just an employee, the notion that their would be unfair pay for women is absurd. As his bill in Office, President Obama signed the Lilly Ledbetter Fair Pay Act, a bill which reinstated laws protecting a woman's right to fair pay after they were struck down by the Surpreme Court. Governor Romney did not support the Lilly Ledbetter Fair Pay Act.
+
+**Crowdfunding for young people**. Increasingly, young people are raising money through crowdfunding. Spurred by the huge networks we create through sites like Facebook and Twitter, crowdfunding is quickly becoming a viable way to avoid VCs while still raising the necessary money to turn a dream into reality. President Obama, with support of a bi-partisan congress, passed the JOBS Act, which will allow *real* crowdfunding for startups.
+
+**The Startup America Initiative.** At a more direct impact level, President Obama has started the Startup America Initiative, which is a fast growing network of organizations dedicated to providing support for young entrepreneurs and startups in America. Combined with government support from the Small Business Assocaiation, this means billions of new dollars injected into startups across the country, increased support for organizations like the Network for Teaching Entrepreneurship (NFTE) to help instill entpreneurial values in high school students, and millions of dollars going directly college campus incubators and support networks for young startups like the BlackStone Foundation supported LaunchPad. A huge initiative, the total scope of which can be explored in [this press release](http://www.whitehouse.gov/startup-america-fact-sheet).
+
+Of course, while President Obama has done a huge amount to support young people in starting companies, there's so much more that can be done. We should never be satisfied with the status quo, so we must ever push for even more:
+
+**[Startup Visa and Immigration Reform](http://startupvisa.com)**. Lots has been done for young American citizens looking to found startups, but now we must support those who wish to make American their new home--and the home of their startup. While President Obama has voiced support for the Startup Visa Act, he has also stated that it must come with a fuller immigration reform. In my mind, there's no doubt that we need both: let us allow the young, bright startuppers who wish to come to America to come, but also release those brought here by forces out of their power to escape the fear and prejiduce that plagues them everyday. Let's support Obama in his campaign for immigration reform and the [startup visa](http://startupvisa.com).
+
+*Do you think that Obama has done a goob job supporting young startuppers? Would Mitt Romney have been better? I'd love to hear your opinion in the comments.*
