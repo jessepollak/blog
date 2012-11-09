@@ -1,1 +1,0 @@
-don't send me a message telling me that i've unsubscribed from your newsletter—I know, I just did it
