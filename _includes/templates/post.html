@@ -1,9 +1,10 @@
 <div id="post">
-  <h1>{{ page.title }}</h1>
-  <p class="meta">
-    {{ page.date | date_to_long_string }} 
+  <h1 class="meta">
+    <span>{{ page.date | date_to_long_string }}</span>
     {% if page.location %}{{ page.location }}{% endif %}
-  </p>
+    <span class='meta-border'></span>
+  </h1>
+  <h1 class='title'>{{ page.title }}</h1>
   {{ content }}
 </div>
 

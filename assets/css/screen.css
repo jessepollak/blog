@@ -17,13 +17,21 @@ html, body {
 
 body {
   background-color: white;
-  font: 13.34px helvetica, arial, clean, sans-serif;
+  font-family: "ff-meta-serif-web-pro",Georgia,Cambria,"Times New Roman",Times,serif;
   *font-size: small;
-  text-align: center;
+  color: rgb(30, 30, 30);
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-size: 100%;
+}
+
+a {
+  color: rgb(30, 30, 30);
+}
+
+a:hover {
+  color: #AAA;
 }
 
 h1 {
@@ -32,18 +40,6 @@ h1 {
 
 p {
   margin: 1em 0;
-}
-
-a {
-  color: #00a;
-}
-
-a:hover {
-  color: black;
-}
-
-a:visited {
-  color: #a0a;
 }
 
 table {
@@ -82,14 +78,12 @@ ul.posts {
 .site {
   font-size: 110%;
   text-align: justify;
-  width: 40em;
+  width: 640px;
   margin: 3em auto 2em auto;
   line-height: 1.5em;
 }
 
 .title {
-  color: #a00;
-  font-weight: bold;
   margin-bottom: 2em;
 }
 
@@ -113,7 +107,31 @@ ul.posts {
   }
 
   .site .meta {
-    color: #aaa;
+    overflow: hidden;
+    font-size: 1em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #AAA;
+    font-weight: normal;
+    margin-bottom: 0;
+  }
+
+  .site .meta span {
+    display: inline-block;
+    position: relative;
+    padding: 0 10px;
+    z-index: 2;
+    background: white;
+  }
+
+  .site span.meta-border {
+    width: 100%;
+    border-bottom: 1px dotted #AAA;
+    position: relative;
+    top: -26px;
+    z-index: -1;
+  }
+
   }
 
   .site .footer {
@@ -143,6 +161,43 @@ ul.posts {
         border: 0;
       }
 
+.navigation {
+  margin: 0 0 0 30px;
+  float: left;
+}
+
+.navigation .home {
+  text-decoration: none;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.navigation img {
+  width: 100px;
+  border: 5px solid #DDD;
+}
+
+.navigation img:hover {
+  border-color: #EEE;
+}
+
+.navigation .nav {
+}
+
+.navigation .nav a {
+  display: block;
+  text-decoration: none;
+}
+
+.navigation .nav a.extra {
+  text-transform: lowercase;
+  text-align: right;
+}
+
+.clear {
+  clear: both;
+}
+
 /*****************************************************************************/
 /*
 /* Posts
@@ -150,9 +205,24 @@ ul.posts {
 /*****************************************************************************/
 
 #post {
-
 }
 
+#post .title {
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: normal;
+  font-style: italic;
+  text-align: center;
+  margin: 40px 0 60px 0;
+}
+
+#post .author {
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 10px;
+  color: rgb(100, 100, 100);
+}
   /* standard */
 
   #post pre {
@@ -176,6 +246,12 @@ ul.posts {
     #post pre code {
       border: none;
     }
+
+  #post p {
+    font-size: 20px;
+    line-height: 32px;
+    text-align: left;
+  }
 
   /* terminal */
 

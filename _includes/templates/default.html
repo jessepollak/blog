@@ -18,13 +18,20 @@
 </head>
 <body>
 
-  <div class="site">
-    <div class="title">
-      <a href="{{ HOME_PATH }}">{{ site.title }}</a>
+
+  <div class="navigation">
+    <a href="{{ HOME_PATH }}">
+      <img src='{{ ASSET_PATH }}/images/jesse.jpg' />
+    </a>
+    <div class='nav'>
+      <a class='home' href="{{ HOME_PATH }}">{{ site.title }}</a>
       
       <a class="extra" href="{{ BASE_PATH }}{{ site.JB.about_path }}">About</a>
       <a class="extra" href="{{ BASE_PATH }}{{ site.JB.archive_path }}">Archive</a>
     </div>
+  </div>
+
+  <div class="site">
   
     {{ content }}
   
