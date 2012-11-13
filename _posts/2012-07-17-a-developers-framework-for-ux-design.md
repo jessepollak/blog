@@ -28,7 +28,7 @@ Whitney is of the belief that there is a consistent pattern to UX design that sh
 
 1. Stakeholder interviews
     
-  * talking to the owners (or decision makers) in the business to see what *they want to get out of it*
+  - talking to the owners (or decision makers) in the business to see what they want to get out of it 
   
 2. Talk to current and future customers and ask what they want
 3. Turn customer interviews into "personas," which are combinations of interviews

@@ -11,31 +11,34 @@
 
    <!-- Homepage CSS -->
    <link rel="stylesheet" href="{{ ASSET_PATH }}/css/screen.css" type="text/css" media="screen, projection" />
-
-   <!-- Typekit -->
-   <script type="text/javascript" src="http://use.typekit.com/jpd0pfm.js"></script>
-   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 </head>
 <body>
 
 
   <div class="navigation">
     <a href="{{ HOME_PATH }}">
-      <img src='{{ ASSET_PATH }}/images/jesse.jpg' />
+      <img src='{{ ASSET_PATH }}images/jesse.jpg' />
     </a>
     <div class='nav'>
       <a class='home' href="{{ HOME_PATH }}">{{ site.title }}</a>
       
-      <a class="extra" href="{{ BASE_PATH }}{{ site.JB.about_path }}">About</a>
-      <a class="extra" href="{{ BASE_PATH }}{{ site.JB.archive_path }}">Archive</a>
+      <div class='site-links'>
+        <a class="extra" href="{{ BASE_PATH }}{{ site.JB.archive_path }}">archive</a>
+        <a class="extra" href="{{ BASE_PATH }}{{ site.JB.things_path }}">things</a>
+      </div>
+      <div class='social-links'>
+        <a class='extra' href='http://twitter.com/jessepollak'>twitter</a>
+        <a class='extra' href='http://github.com/jessepollak'>github</a>
+        <a class='extra' href='http://facebook.com/facebook'>facebook</a>
+      </div>
     </div>
   </div>
 
-  <div class="site">
+  <div class='content'>
   
     {{ content }}
   
-    <div class="footer">
+<!--     <div class="footer">
       <div class="contact">
         <p>
           {{ site.author.name }}<br />
@@ -49,9 +52,8 @@
           <a href="http://twitter.com/{{ site.author.twitter }}/">twitter.com/{{ site.author.twitter }}</a><br />
         </p>
       </div>
-    </div>
+    </div> -->
   </div>
-
   {% include JB/analytics %}
 </body>
 </html>

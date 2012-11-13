@@ -71,6 +71,7 @@ JB :
   #
   about_path: /about.html
   archive_path: /archive.html
+  things_path: /things.html
 
   # Settings for comments helper
   # Set 'provider' to the comment provider you want to use.

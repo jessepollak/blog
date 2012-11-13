@@ -5,15 +5,27 @@ tagline: Discussing what comes to mind
 ---
 {% include JB/setup %}
 
-
-<p>Sophomore at <b>Pomona College</b>. Summer of 2012 <b>hackNY Fellow</b> and SDE intern at <b>BuzzFeed</b>. Currently hacking on <a href='https://clef.io'>Clef</a>. Latest side project: <a href='http://gitbattle.com'>GitBattle</a>.</p>
-
-<p>Follow me on <a href='http://twitter.com/jessepollak'>Twitter</a>, friend me on <a href='http://facebook.com/jessepollak'>Facebook</a>, and fork my code on <a href='http://github.com/jessepollak'>Github</a>. Or, check out the <a href='/about.html'>about page</a> for my latest projects.</p>
-  
-<ul class="posts">
-  {% for post in site.posts limit: 15 %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+<div class='site'>
+  {% for post in site.posts limit: 3 %}
+    <div class="post">
+      <h1 class="meta">
+        <span>{{ post.date | date_to_long_string }}</span>
+        {% if post.location %}{{ post.location }}{% endif %}
+        <span class='meta-border'></span>
+      </h1>
+      <h1 class='title'><a href="{{ BASE_PATH }}{{ post.url }}">{{ post..title }}</a></h1>
+      {{ post.content }}
+      <div class='post-footer'>
+        <a class='twitter' href="https://twitter.com/share?url=http://jessepollak.me{{ BASE_PATH }}{{ post.url | Urlencode }}" target="_blank">share on twitter</a>
+        <a class='more' href="{{ BASE_PATH }}{{ post.url }}">read more or comment</a>
+        <div class='clear'></div>
+      </div>
+    </div>
   {% endfor %}
-</ul>
+  <div class='archive-link'>
+    <a href='{{ site.JB.archive_path }}'>more posts</a>
+  </div>
+</div>
 
-Visit the <a href='/archive.html'>archive</a> for more!
+
+

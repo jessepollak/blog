@@ -79,7 +79,8 @@ ul.posts {
   font-size: 110%;
   text-align: justify;
   width: 640px;
-  margin: 3em auto 2em auto;
+  margin: auto;
+  padding-bottom: 50px;
   line-height: 1.5em;
 }
 
@@ -88,7 +89,6 @@ ul.posts {
 }
 
   .site .title a {
-    color: #a00;
     text-decoration: none;
   }
 
@@ -160,6 +160,15 @@ ul.posts {
       .site .footer .rss img {
         border: 0;
       }
+  .site .archive-link {
+    font-size: 40px;
+    text-align: center;
+    margin-top: -30px;
+  }
+
+.content {
+  margin-top: 50px;
+}
 
 .navigation {
   margin: 0 0 0 30px;
@@ -194,6 +203,16 @@ ul.posts {
   text-align: right;
 }
 
+.navigation .social-links {
+}
+
+.navigation .site-links {
+  border-bottom: 1px dotted #AAA;
+  border-top: 1px dotted #AAA;
+  margin: 10px 0;
+  padding: 10px 0;
+}
+
 .clear {
   clear: both;
 }
@@ -204,10 +223,11 @@ ul.posts {
 /*
 /*****************************************************************************/
 
-#post {
+.post {
+  margin-bottom: 100px;
 }
 
-#post .title {
+.post .title {
   font-size: 36px;
   line-height: 40px;
   font-weight: normal;
@@ -216,7 +236,11 @@ ul.posts {
   margin: 40px 0 60px 0;
 }
 
-#post .author {
+.post .title a:hover {
+  color: #AAA;
+}
+
+.post .author {
   font-weight: normal;
   text-align: center;
   text-transform: uppercase;
@@ -225,29 +249,29 @@ ul.posts {
 }
   /* standard */
 
-  #post pre {
+  .post pre {
     border: 1px solid #ddd;
     background-color: #eef;
     padding: 0 .4em;
   }
 
-  #post ul,
-  #post ol {
+  .post ul,
+  .post ol {
     margin-left: 1.35em;
   }
 
-  #post code {
+  .post code {
     border: 1px solid #ddd;
     background-color: #eef;
     font-size: 85%;
     padding: 0 .2em;
   }
 
-    #post pre code {
+    .post pre code {
       border: none;
     }
 
-  #post p {
+  .post p {
     font-size: 20px;
     line-height: 32px;
     text-align: left;
@@ -255,20 +279,182 @@ ul.posts {
 
   /* terminal */
 
-  #post pre.terminal {
+  .post pre.terminal {
     border: 1px solid black;
     background-color: #333;
     color: white;
   }
 
-  #post pre.terminal code {
+  .post pre.terminal code {
     background-color: #333;
   }
 
+  .post .post-footer a {
+    font-size: 18px;
+    color: #AAA;
+    text-decoration: none;
+  }
+  .post .post-footer a:hover {
+    color: black;
+  }
+  .post .post-footer .twitter {
+    float: left;
+  }
+
+  .post .post-footer .more {
+    float: right;
+  }
 #related {
   margin-top: 2em;
+  text-align:center;
 }
 
   #related h2 {
     margin-bottom: 1em;
   }
+
+#disqus_thread {
+  padding-bottom: 50px;
+}
+
+.post .social {
+  text-align: center;
+}
+.post .social a {
+  font-size: 14px;
+  font-style: italic;
+  text-decoration: none;
+}
+
+#archive h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#archive h3 {
+  margin-bottom: 10px;
+  border-bottom: 1px dotted #AAA;
+}
+#archive ul {
+  list-style: none;
+}
+#archive ul li {
+  list-style: none;
+  text-align: right;
+}
+
+#archive ul li a {
+  font-size: 22px;
+  text-decoration: none;
+  margin: 10px 0;
+  display: block;
+}
+#archive ul li a:hover {
+  color: #BBB;
+}
+
+#archive ul li a span {
+  font-size: 14px;
+  color: #AAA;
+  position: relative;
+  top: -2px;
+}
+
+#archive ul li > a.title {
+  text-decoration: none;
+  font-size: 36px;
+  font-style: italic;
+  line-height: 40px;
+  display: block;
+  margin: 40px 0 60px 0;
+}
+
+#archive ul li a.more {
+  text-decoration: underline;
+  font-style: italic;
+  position: relative;
+  top: -1px;
+}
+
+#archive ul li .archive-content strong {
+  font-weight: normal;
+}
+
+
+#home {
+  height: 480px;
+  width: 480px;
+  margin: auto;
+  margin-top: 100px;
+}
+#home img {
+  border: 10px solid #AAA;
+  width: 100%;
+}
+
+#home a {
+  margin-top: 20px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 36px;
+  font-style: italic;
+  width: 155px;
+}
+
+#home {
+  text-align: center;
+}
+
+#things {
+  width: 960px;
+  margin: auto;
+}
+
+#things .thing {
+  width: 27%;
+  float: left;
+  margin-right: 6%;
+  margin-bottom: 30px;
+}
+
+#things .thing a {
+  text-decoration: none;
+  display: block;
+}
+#things .thing img {
+  width: 100%;
+  border: 5px solid #DDD;
+  margin-top: 5px;
+  height: 150px;
+}
+#things .thing img:hover {
+  border-color: #EEE;
+}
+
+#things .thing h3 {
+  font-size: 30px;
+  font-weight: normal;
+  margin-bottom: 0;
+}
+
+#things .thing h3 span {
+  font-size: 12px;
+  text-align: right;
+  font-style: italic;
+}
+
+#things .thing p {
+  font-size: 12px;
+  display: block;
+  height: 50px;
+}
+
+#things .thing p > a {
+  color: #3399cc;
+}
+
+#about h2 {
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 50px;
+}
