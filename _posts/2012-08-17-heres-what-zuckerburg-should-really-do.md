@@ -7,7 +7,7 @@ tags: []
 ---
 {% include JB/setup %}
 
-This morning, I woke up to "Is Mark Zuckerberg in over his hoodie as Facebook CEO?," a painful piece of writing and thought put out by the LA Times. The basic premise is that because Facebook's share price has dropped so rapidly, Mark Zuckerburg should really consider "step[ing] aside as CEO to let a more seasoned executive run the multibillion-dollar company." With prime quotes from investors such as:
+This morning, I woke up to "Is Mark Zuckerberg in over his hoodie as Facebook CEO?," a painful piece of writing and thought put out by the LA Times. The basic premise is that because Facebook's share price has dropped so rapidly, Mark Zuckerburg should really consider "step\[ing\] aside as CEO to let a more seasoned executive run the multibillion-dollar company." With prime quotes from investors such as:
 
 "There is a growing sense that Mark Zuckerberg, talented though he may be, is in over his hoodie as CEO of a multibillion-dollar public company."
 

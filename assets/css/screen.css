@@ -295,6 +295,10 @@ ul.posts {
     -webkit-border-radius: 5px;
     border-radius: 5px;
   }
+
+  .post img {
+    width: 100%;
+  }
   
 #related {
   margin-top: 2em;
