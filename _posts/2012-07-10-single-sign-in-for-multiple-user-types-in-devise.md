@@ -13,43 +13,50 @@ For [Mentor.im](http://mentor.im), we are using [devise](https://github.com/plat
 
 The basic premise of the solution is to choose one user type as your "main" user type, then route sign in through that controller and readjust the user type appropriately. Accordingly, I chose the mentor user type as the "main" user type:
 
+{% highlight ruby linenos %}
 */config/routes.rb*
 
-    devise_for :mentors, controllers: { sessions: 'sessions' }
-    
-    devise_scope :mentor do
-      match '/sign_in' => 'sessions#new'
-    end
+devise_for :mentors, controllers: { sessions: 'sessions' }
+
+devise_scope :mentor do
+  match '/sign_in' => 'sessions#new'
+end
+
+{% endhighlight %}
     
 
 The first line produces the routes for :mentors and sets the sessions controller (the one used for signin/signout) to be a custom controller. The second batch of code simply maps `/sign_in` to the normal mentor sign in page (what would otherwise be `/mentors/sign_in`).
 
 With that in place, I just need to prepare the new controller.
 
+{% highlight ruby linenos %}
+
 */app/controllers/sessions_/new_controller*
 
 
-    class SessionsController < Devise::SessionsController
-      layout :false
-    
-      def create
-        unless Mentor.find_by_email(params[:mentor][:email])
-          auth_options = {scope: :mentee, recall: 'sessions#new'}
-          resource_name = :mentee
-          warden.config[:default_scope] = :mentee
-          params[:mentee] = params.delete(:mentor)
-          resource_name = :mentee
-        else
-          resource_name = :mentor
-          auth_options = {scope: :mentor, recall: 'sessions#new'}
-        end
-        resource = warden.authenticate!(auth_options)
-        set_flash_message(:notice, :signed_in) if is_navigational_format?
-        sign_in(resource_name, resource)
-        respond_with resource, :location => after_sign_in_path_for(resource)
-      end
-    
+class SessionsController < Devise::SessionsController
+  layout :false
+
+  def create
+    unless Mentor.find_by_email(params[:mentor][:email])
+      auth_options = {scope: :mentee, recall: 'sessions#new'}
+      resource_name = :mentee
+      warden.config[:default_scope] = :mentee
+      params[:mentee] = params.delete(:mentor)
+      resource_name = :mentee
+    else
+      resource_name = :mentor
+      auth_options = {scope: :mentor, recall: 'sessions#new'}
     end
+    resource = warden.authenticate!(auth_options)
+    set_flash_message(:notice, :signed_in) if is_navigational_format?
+    sign_in(resource_name, resource)
+    respond_with resource, :location => after_sign_in_path_for(resource)
+  end
+
+end
+
+{% endhighlight %}
     
 The bottom 4 lines of code in this section are copied directly from the source code of the devise sessions controller create action. The unless/else statement is the magic that makes it work with either user type.
 

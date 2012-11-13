@@ -17,34 +17,43 @@ Work today was a little frustrating: for the first time, I hit a point where I d
 
 Here's where my **one big thing learned today** came in (if you're confused what that means, [see my first post](http://jpollak92.github.com/2012/05/21/day-1-dont-be-afraid-to-ask-questions/)): you don't have to use a mocking framework, you can create your own mocks! I used a Node.js module called Horaa to hijack function calls on modules, then mocked up the objects they created and sent back just using a straight up javascript `Object`. Here's the code I'm trying to test:
 
-    var buf = new Buffer(send);
-    var client = dgram.createSocket('udp4');
-		client.send(buf, 0, buf.length, 8125, 'statsd.buzzfeed.com', 
-		function(err, bytes) {
-			client.close();
-			if(err) {
-				console.log("Error sending data: ", err);
-				res.send(500);
-			} else {
-				res.send(200);
-			}
-		});
+{% highlight javascript linenos %}
+
+var buf = new Buffer(send);
+var client = dgram.createSocket('udp4');
+client.send(buf, 0, buf.length, 8125, 'statsd.buzzfeed.com', 
+function(err, bytes) {
+	client.close();
+	if(err) {
+		console.log("Error sending data: ", err);
+		res.send(500);
+	} else {
+		res.send(200);
+	}
+});
+
+{% endhighlight %}
 		
 Pretty much, I create a UDP socket then use it to send a Buffer (encoded string) to the statsD server (port 8125, host 'statsd.buzzfeed.com'). The problem with mocking this code is that buffers cannot be compared one-to-one. So, if I create a buffer with "test", it won't be directly equal to a second buffer created with 'test'. So, it's impossible to say exactly what arguments the `client` is going to receive in the send call. Here is the test code I used to solve the problem:
 
-    dgramHoraa.hijack('createSocket', function() {
-			socket = new Object();
-			socket.send = 
-			  function(buffer, offset, length, port, host, callback) {
-  				offset.should.equal(0);
-  				length.should.equal(8);
-  				port.should.equal(8125);
-  				host.should.equal('statsd.buzzfeed.com');
-  				callback("Mock error, don't worry!");
-  				}
-			socket.close = function() {
-				return true;
+{% highlight javascript linenos %}
+
+dgramHoraa.hijack('createSocket', function() {
+	socket = new Object();
+	socket.send = 
+	  function(buffer, offset, length, port, host, callback) {
+			offset.should.equal(0);
+			length.should.equal(8);
+			port.should.equal(8125);
+			host.should.equal('statsd.buzzfeed.com');
+			callback("Mock error, don't worry!");
 			}
+	socket.close = function() {
+		return true;
+	}
+}
+
+{% endhighlight %}
 			
 As you can see, I hijack the `createSocket` function and create a new `Object()` which I call socket. Then, I just assign new methods to `.send` and `.close`. The send method checks that all of the things I **can check** (not buffer) are equal, then calls the callback function, which closes the socket and sends the correct response. With Horaa, this object is passed back instead of the real socket, the new send and close functions are called, and everything works beautifully. I never knew mocks were this easy!
 

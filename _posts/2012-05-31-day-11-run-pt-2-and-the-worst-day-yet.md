@@ -15,7 +15,7 @@ Yesterday, I sat down with my boss and some of the data scientists at BuzzFeed a
 
 There was; however, one fun thing that I got to do today: I started learning d3.js in anticipation of some of the visualizations I would be writing with the data I will (hopefully) have. So, my **one big thing learned today** (if you're confused what that means, [see my first post](http://jpollak92.github.com/2012/05/21/day-1-dont-be-afraid-to-ask-questions/)) was a basic understanding of how d3.js works (and how unbelievably powerful it is). Here's a little demo I made today by following a tutorial on their site:
 
-<div class='d3'> </div>
+<div class='d3'></div>
 
 <script src="http://d3js.org/d3.v2.js"> </script>
 <script>

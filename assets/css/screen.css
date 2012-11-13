@@ -249,27 +249,11 @@ ul.posts {
 }
   /* standard */
 
-  .post pre {
-    border: 1px solid #ddd;
-    background-color: #eef;
-    padding: 0 .4em;
-  }
 
   .post ul,
   .post ol {
     margin-left: 1.35em;
   }
-
-  .post code {
-    border: 1px solid #ddd;
-    background-color: #eef;
-    font-size: 85%;
-    padding: 0 .2em;
-  }
-
-    .post pre code {
-      border: none;
-    }
 
   .post p {
     font-size: 20px;
@@ -304,6 +288,14 @@ ul.posts {
   .post .post-footer .more {
     float: right;
   }
+
+  .post .highlight {
+    padding: 10px 0 10px 10px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+  }
+  
 #related {
   margin-top: 2em;
   text-align:center;

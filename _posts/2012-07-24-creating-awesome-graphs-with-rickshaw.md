@@ -17,57 +17,82 @@ BuzzFeed is lucky enough to have <a href='http://en.wikipedia.org/wiki/Ben_Smith
 
 The evening, about a month ago, I sat down and wrote a script that would scrape the leaderboard each day and store the ranking in the database. Yesterday, I decided I finally had enough data for it to be cool and sat down with Rickshaw to make the data come alive.
 
-The backend of the app is simple: Sinatra hitting a MongoDB hosted on MongoHQ. If you hit `/data.json`, you'll see what I get from the database: an array of objects in the form `{name: 'News Outlet Name', data: [{x: *time*, y: *percentage of aggregation*}, {x: ,y: }, ...]}`. Now, with Rickshaw I could turn that raw data into something beautiful—in 50 lines of easy to read (and write) code.
+The backend of the app is simple: Sinatra hitting a MongoDB hosted on MongoHQ. If you hit `/data.json`, you'll see what I get from the database: an array of objects in the form 
 
-    var palette = new Rickshaw.Color.Palette(),
-        series = []
-    $.get('names.json', function(d) {
-      d.forEach(function(s) {
-        series.push({
-          name: s,
-          color: palette.color(s)
-        });
+{% highlight javascript linenos %}
+
+{
+  name: 'News Outlet Name', 
+  data: [
+    {
+      x: *time*, 
+      y: *percentage of aggregation*
+    }, 
+    {
+      x: ,
+      y: 
+    }, 
+    ...
+  ]
+} 
+
+{% endhighlight %}
+
+Now, with Rickshaw I could turn that raw data into something beautiful—in 50 lines of easy to read (and write) code.
+
+{% highlight javascript linenos %}
+
+var palette = new Rickshaw.Color.Palette(),
+    series = []
+$.get('names.json', function(d) {
+  d.forEach(function(s) {
+    series.push({
+      name: s,
+      color: palette.color(s)
+    });
+  });
+  var ajaxGraph = new Rickshaw.Graph.Ajax( {
+  	element: document.getElementById("graph"),
+  	width: 800,
+  	height: 500,
+  	renderer: 'line',
+  	dataURL: 'data.json',
+  	series: series,
+  	onData: function(d) {
+  	  Rickshaw.Series.zeroFill(d);
+  	  return d;
+  	},
+  	onComplete: function(transport) {
+  	  var graph = transport.graph;
+  	  var detail = new Rickshaw.Graph.HoverDetail({ 
+  	    graph: graph,
+  	    xFormatter: function(x) { 
+  	      return new Date(x * 60 * 60 * 24 * 1000).format("ddd mmmm d, yyyy") 
+  	    },
+  	    yFormatter: function(y) { return (y*100).toFixed(2) + "%"}
+  	  });
+  	  var legend = new Rickshaw.Graph.Legend({
+          graph: graph,
+          element: document.querySelector('#legend')
       });
-      var ajaxGraph = new Rickshaw.Graph.Ajax( {
-      	element: document.getElementById("graph"),
-      	width: 800,
-      	height: 500,
-      	renderer: 'line',
-      	dataURL: 'data.json',
-      	series: series,
-      	onData: function(d) {
-      	  Rickshaw.Series.zeroFill(d);
-      	  return d;
-      	},
-      	onComplete: function(transport) {
-      	  var graph = transport.graph;
-      	  var detail = new Rickshaw.Graph.HoverDetail({ 
-      	    graph: graph,
-      	    xFormatter: function(x) { 
-      	      return new Date(x * 60 * 60 * 24 * 1000).format("ddd mmmm d, yyyy") 
-      	    },
-      	    yFormatter: function(y) { return (y*100).toFixed(2) + "%"}
-      	  });
-      	  var legend = new Rickshaw.Graph.Legend({
-              graph: graph,
-              element: document.querySelector('#legend')
-          });
-          var shelving = new Rickshaw.Graph.Behavior.Series.Toggle({
-              graph: graph,
-              legend: legend
-          });
-          var highlighter = new Rickshaw.Graph.Behavior.Series.Highlight({
-              graph: graph,
-              legend: legend
-          });
-          var yAxis = new Rickshaw.Graph.Axis.Y({
-              graph: graph,
-              tickFormat: function(y) { return (y*100).toFixed(2) + "%"}
-          });
-          yAxis.render();
-      	}
-      } );
-    }, 'json');
+      var shelving = new Rickshaw.Graph.Behavior.Series.Toggle({
+          graph: graph,
+          legend: legend
+      });
+      var highlighter = new Rickshaw.Graph.Behavior.Series.Highlight({
+          graph: graph,
+          legend: legend
+      });
+      var yAxis = new Rickshaw.Graph.Axis.Y({
+          graph: graph,
+          tickFormat: function(y) { return (y*100).toFixed(2) + "%"}
+      });
+      yAxis.render();
+  	}
+  } );
+}, 'json');
+
+{% endhighlight %}
     
 If you're interested in seeing the leaderboard in all it's beauty, check it out [here](http://memeorandum.herokuapp.com).
 

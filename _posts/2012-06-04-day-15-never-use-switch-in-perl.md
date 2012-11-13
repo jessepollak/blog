@@ -11,23 +11,26 @@ tags: []
 
 Learning a new language is never easy: new syntax, new constructs, features that you think should work, but don't, etc etc. Today, my mind was torn to bits by a simple construct that wouldn't compile, check it out:
 
-      if ($total_search == 0 && $total_social == 0) {
-    		$ratio = 0;
-    	} else {
-    	  if ($total_social >= $total_search) {
-    			if ($total_search == 0) {
-    				$ratio = 1;
-    			} else {
-    				$ratio = 1 - ($total_social / $total_search);
-  				}
-    	} else {
-    			if ($total_social == 0) {
-    				$ratio = -1;
-    			} else {
-  					$ratio = ($total_search / $total_social) - 1;
-  				}
-  		  }
-   	  }
+{% highlight perl linenos %}
+if ($total_search == 0 && $total_social == 0) {
+	$ratio = 0;
+} else {
+  if ($total_social >= $total_search) {
+		if ($total_search == 0) {
+			$ratio = 1;
+		} else {
+			$ratio = 1 - ($total_social / $total_search);
+		}
+} else {
+		if ($total_social == 0) {
+			$ratio = -1;
+		} else {
+			$ratio = ($total_search / $total_social) - 1;
+		}
+  }
+}
+
+{% endhighlight %}
     	
 I spent 2 hours today writing, and rewriting that piece of code, trying to figure out what could possibly be wrong with it. In the end, there was nothing wrong with it: the `switch` statement in Perl, a piece of code I used earlier, is just unreliable (who would have guessed), but there's nothing about the unreliability in the Perl documentation. Luckily I stumbled upon [this](http://www.perlmonks.org/?node_id=784840). Lesson learned: never use the switch in Perl.
 

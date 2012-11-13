@@ -16,20 +16,23 @@ Even if no one finds this post interesting, that title will still keep me happyâ
 Over the last few days, I've been having some Selenium struggles of my own while writing tests for a consumer facing feature I'm writing for BuzzFeed. Today, in the morning, those frustrations escalated as I hit points where I thought to myself: "what the fuck, this should be working." In the afternoon, however, things started clicking and I began to understand why Selenium can be very valuable. I thought I'd share a nice little example where Selenium actually saved the day.
 
 Consider the following snippet of code:
-	  
-		ajax.request('<request location>', {
-			method: 'get',
-			parameters: {},
-			onSuccess: function(response) {
-			  var authentications = JSON.parse(response.responseText);
-			  wrapper.down('loading-gif').hide();
-			  //insert current authentications
-			  authentications.each(function(a) {
-			    //insert into a table in the DOM
-			  });
-			  //add handlers to newly added authentications
-			  add_new_prompts([assign_new_handlers, assign_new_social_handlers]);
-			}
+
+{% highlight javascript linenos %}	  
+ajax.request('<request location>', {
+	method: 'get',
+	parameters: {},
+	onSuccess: function(response) {
+	  var authentications = JSON.parse(response.responseText);
+	  wrapper.down('loading-gif').hide();
+	  //insert current authentications
+	  authentications.each(function(a) {
+	    //insert into a table in the DOM
+	  });
+	  //add handlers to newly added authentications
+	  add_new_prompts([assign_new_handlers, assign_new_social_handlers]);
+	}
+}
+{% endhighlight %}
 	  
 Basically, I do an AJAX request to load some data, hide the loading GIF onSuccess, insert the formatted data into the DOM, then, in the last line, do some more manipulation and assign handlers to the new DOM that I just added in the each loop. Looking at the code, it seems to make sense: I add the new stuff to the DOM and then assign the handlersâ€”pretty standard stuff. And, in the hand testing I did, everything worked great. The DOM got manipulated, the handlers worked, sunshine shown and birds sang.
 
@@ -47,22 +50,27 @@ For Selenium, however, it's a little different: since it's just javascript, it *
 
 To be honest, this is a pretty stupid assumption to make in my code; however, it's also pretty easy to dismiss or overlook. Without Selenium, I can safely say that I never would have caught it. And, while my computer may be fast enough to assign those handlers before I notice, that may not be the case on a slower computer: potentially ruining the user experience for a BuzzFeed reader out there. The fix:
 
-    //hide the table that the new data will be inserted into
-    wrapper.down('table').hide(); 
-		ajax.request('/buzzfeed/super_share', {
-			method: 'get',
-			parameters: {},
-			onSuccess: function(response) {
-			  var authentications = JSON.parse(response.responseText);
-			  //insert current authentications
-			  authentications.each(function(a) {
-			    //insert into hidden table in the DOM
-			  });
-			  //assign handlers BEFORE I hid the loading GIF
-			  add_new_prompts([ss.assign_new_handlers, ss.assign_new_social_handlers]); 
-			  wrapper.down('loading-gif').hide(); //hide the loading GIF
-			  wrapper.down('table').show(); //show the table
-			}
+{% highlight javascript linenos %}
+
+//hide the table that the new data will be inserted into
+wrapper.down('table').hide(); 
+ajax.request('/buzzfeed/super_share', {
+	method: 'get',
+	parameters: {},
+	onSuccess: function(response) {
+	  var authentications = JSON.parse(response.responseText);
+	  //insert current authentications
+	  authentications.each(function(a) {
+	    //insert into hidden table in the DOM
+	  });
+	  //assign handlers BEFORE I hid the loading GIF
+	  add_new_prompts([ss.assign_new_handlers, ss.assign_new_social_handlers]); 
+	  wrapper.down('loading-gif').hide(); //hide the loading GIF
+	  wrapper.down('table').show(); //show the table
+	}
+}
+
+{% endhighlight %}
 			
 Now, my Selenium steps work because all the events are attached *before* the 'loading-gif' is hidden. Success!
 

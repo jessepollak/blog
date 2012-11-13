@@ -15,34 +15,41 @@ At work, I had to correct a bug we introduced in the data retention rates in the
 
 My **one big thing learned today** (if you're confused what that means, [see my first post](http://jpollak92.github.com/2012/05/21/day-1-dont-be-afraid-to-ask-questions/)) was the power of writing callbacks into your own javascript functions—especially when manipulating the DOM with jQuery or a similar library. With animations and the like, if you just call one custom function after another, elements will often be in a different place than you think they should be: a bug whose cause can be really hard to track down. Instead, write the second function as a callback to the first. For instance, here's a function I wrote to manipulate the position of graphs on the dashboard:
 
-    function adjustGraphPosition(height, direction) {
-    	var graphs = $('.graph');
-    	if(direction) {
-    		graphs.each(function() {
-    			$(this).animate({
-    				top: height + $(this).offset().top + 8
-    			}, '1000', function() {});
-    		});
-    	} else {
-    		graphs.each(function() {
-    			$(this).animate({
-    				top: $(this).offset().top - height - 8
-    			}, '1000', function() {});
-    		});
-    	}
-    }
+{% highlight javascript linenos %}
+function adjustGraphPosition(height, direction) {
+	var graphs = $('.graph');
+	if(direction) {
+		graphs.each(function() {
+			$(this).animate({
+				top: height + $(this).offset().top + 8
+			}, '1000', function() {});
+		});
+	} else {
+		graphs.each(function() {
+			$(this).animate({
+				top: $(this).offset().top - height - 8
+			}, '1000', function() {});
+		});
+	}
+}
+
+{% endhighlight %}
     
 If I were to call this function and then directly after a saveGraphs() function, to save the graphs to the database, the position of the graphs would be wrong: they are being saved mid-animation (a bug I had today). Instead, write in the callback function:
 
-    function adjustGraphPosition(height, direction, callback) {
-    	var graphs = $('.graph');
-    	if(direction) {
-        ...
-    	}
-    	(callback && typeof(callback) === "function") && callback();
-    }
-    
-    adjustGraphPosition(100, true, function() { saveGraphs() });
+{% highlight javascript linenos %}
+
+function adjustGraphPosition(height, direction, callback) {
+	var graphs = $('.graph');
+	if(direction) {
+    ...
+	}
+	(callback && typeof(callback) === "function") && callback();
+}
+
+adjustGraphPosition(100, true, function() { saveGraphs() });
+
+{% endhighlight %}
   
 Now, it's guaranteed that the saveGraphs() function will run after the graphs are done animating. Callbacks to the rescue!
 
