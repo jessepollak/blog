@@ -128,7 +128,7 @@ ul.posts {
     width: 100%;
     border-bottom: 1px dotted #AAA;
     position: relative;
-    top: -26px;
+    top: -18px;
     z-index: -1;
   }
 
@@ -177,12 +177,12 @@ ul.posts {
 
 .navigation .home {
   text-decoration: none;
-  font-size: 20px;
+  font-size: 22px;
   margin-bottom: 5px;
 }
 
 .navigation img {
-  width: 100px;
+  width: 120px;
   border: 5px solid #DDD;
 }
 
@@ -201,6 +201,7 @@ ul.posts {
 .navigation .nav a.extra {
   text-transform: lowercase;
   text-align: right;
+  line-height: 20px;
 }
 
 .navigation .social-links {
@@ -261,6 +262,30 @@ ul.posts {
     text-align: left;
   }
 
+  .post p a {
+    color: #477b96;
+    text-decoration: underline;
+  }
+
+  .post p a:hover {
+    color: #AAA;
+  }
+
+  .post blockquote {
+    padding-top: 3px;
+  }
+  .post blockquote p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .post p.endnote {
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 200;
+    line-height: 20px;
+    margin-top: 50px;
+  }
   /* terminal */
 
   .post pre.terminal {
