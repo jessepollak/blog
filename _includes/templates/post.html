@@ -11,7 +11,10 @@
     <h1 class='title'>{{ page.title }}</h1>
     {{ content }}
     <div class='post-footer'>
-        <a class='twitter' href="https://twitter.com/share?url=http://jessepollak.me{{ BASE_PATH }}{{ post.url | Urlencode }}" target="_blank">share on twitter</a>
+        <a class='twitter' href="https://twitter.com/share?url=http://jessepollak.me{{ BASE_PATH }}{{ page.url | Urlencode }}" target="_blank">share on twitter</a>
+        {% if page.hn %}
+          <a class='more' href="{{ page.hn }}">discussion on hacker news</a>
+        {% endif %}
         <div class='clear'></div>
       </div>
   </div>

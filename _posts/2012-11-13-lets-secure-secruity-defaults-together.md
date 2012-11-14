@@ -3,6 +3,7 @@ layout: post
 title: "Let's secure security defaults together"
 description: ""
 category: 
+hn: "http://news.ycombinator.com/item?id=4782349"
 tags: []
 ---
 {% include JB/setup %}
@@ -11,7 +12,7 @@ Today, an [article on authenticated encryption](http://tonyarcieri.com/all-the-c
 
 I'll admit it: I'm not a security expert. I'm a self taught, primarily web focused developer who is trying to learn as much as possible about security (and everything, for that matter) in as short as time as possible (and that's why I'm not working on this company alone). But the fact that I overlooked this reasonably huge security flaw really reinforced in my mind some of the comments that were found in the [HN discussion](http://news.ycombinator.com/item?id=4779015). One stood out in particular, by [jarrett](http://news.ycombinator.com/user?id=jarrett):
 
-> *Quite a few of the replies to acabal's comment amount to "yes, it's hard, suck it up and learn it."
+> Quite a few of the replies to acabal's comment amount to "yes, it's hard, suck it up and learn it."
 >
 > But the crypto community has told us time and again that we shouldn't be trying to learn the fine details of crypto. If we are, it's a warning sign we're wading into the dangerous world of actually implementing crypto. We're just supposed to use pre-built, peer-reviewed crypto systems and understand at a very high level how they work. E.g. knowing what a hash is versus symmetric keys vs asymmetric keys, knowing which algorithms are still acceptable (Bcrypt) and which aren't (md5). And this, I think, is the right message for developers.
 >
@@ -19,7 +20,7 @@ I'll admit it: I'm not a security expert. I'm a self taught, primarily web focus
 >
 > Instead, authors of crypto libraries need to step up and implement secure defaults, as well as provide solid documentation on the do's and don'ts of their libraries. (Assuming of course the OP is correct about the flawed defaults in existing libraries.)
 >
-> In any case, the solution is not to urge normal developers to learn crypto at the level the OP describes. I'm a smart guy, but I know better than to trust myself with things like initialization vectors. This is, after all, what the broader crypto community has been telling people.*
+> In any case, the solution is not to urge normal developers to learn crypto at the level the OP describes. I'm a smart guy, but I know better than to trust myself with things like initialization vectors. This is, after all, what the broader crypto community has been telling people.
 
 So, what was this security flaw? At [Clef](https://clef.io), we are using the [Flask micro framework](http://flask.pocoo.org) for our application server. [Flask](http://flask.pocoo.org) uses the [Werkzeug](http://werkzeug.pocoo.org) library to handle the majority of the heavy Request/Response heavy lifting and uses it's [Secure Cookie library](http://werkzeug.pocoo.org/docs/contrib/securecookie) by default. With a name like that, you might assume that they really are secure cookies, but if you scroll down their documentation, you see an [odd caveat](http://werkzeug.pocoo.org/docs/contrib/securecookie/#security):
 
