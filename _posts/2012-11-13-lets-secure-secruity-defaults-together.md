@@ -7,7 +7,7 @@ tags: []
 ---
 {% include JB/setup %}
 
-Today, an [article on authenticated encryption](http://tonyarcieri.com/all-the-crypto-code-youve-ever-written-is-probably-broken) hit the front page of Hacker News. Seeing as I'm working right now to implement a new, more secure, identity platform at [Clef](https://clef.io), it was interesting to use it test as a comparison tool to see what we were doing right (and wrong). After a thorough review by the team, we decided that we were in fact following the correct protocols in our phone <-> server interactions (although, this article doesn't exactly apply to our situation). What the article did expose, however, was a serious flaw in our server security, which I had overlooked...but my cofounders had already addressed.
+Today, an [article on authenticated encryption](http://tonyarcieri.com/all-the-crypto-code-youve-ever-written-is-probably-broken) hit the front page of Hacker News. Seeing as I'm working right now to implement a new, more secure, identity platform at [Clef](https://clef.io), it was interesting to use it as a comparison tool to see what we were doing right (and wrong). After a thorough review by the team, we decided that we were in fact following the correct protocols in our phone <-> server interactions (although, this article doesn't exactly apply to our situation). What the article did expose, however, was a serious flaw in our server security, which I had overlooked...but my cofounders had already addressed.
 
 I'll admit it: I'm not a security expert. I'm a self taught, primarily web focused developer who is trying to learn as much as possible about security (and everything, for that matter) in as short as time as possible (and that's why I'm not working on this company alone). But the fact that I overlooked this reasonably huge security flaw really reinforced in my mind some of the comments that were found in the [HN discussion](http://news.ycombinator.com/item?id=4779015). One stood out in particular, by [jarrett](http://news.ycombinator.com/user?id=jarrett):
 
@@ -47,6 +47,6 @@ And so, I'm left reiterating jarrett's point:
 
 > Instead, authors of crypto libraries need to step up and implement secure defaults, as well as provide solid documentation on the do's and don'ts of their libraries.
 
-Let's make the web a more secure web together.
+Let's make the web a more secure place together.
 
 <p class='endnote'>If you're wondering, Clef has made sure that our SECRET_KEY has never left the production server and that our cookies are stored in JSON. If you want to learn more about the identity platform that we are building, which replaces usernames and passwords with a user's mobile phone, check us out <a href='https://clef.io'>here</a></p>
