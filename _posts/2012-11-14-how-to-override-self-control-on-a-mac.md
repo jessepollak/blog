@@ -11,7 +11,7 @@ Today, after enabling [Self Control](http://selfcontrolapp.com) for the umpteent
 
 I figured that it might be useful to post a little tutorial to override [Self Control](http://selfcontrolapp.com) for someone who didn't necessarily know what Terminal was or how to edit their /etc/hosts file. If you're reading this, a friend probably set your timer to 24 hours, so hopefully I'm lending a hand (and not actively ruining your study habits). Bad luck or bad habits, feel free to follow this quick guide to override Self Control.
 
-First, pen the Terminal application, which you can find in the Utilities folder inside of the Applications folder and type (then hit enter):
+First, open the Terminal application, which you can find in the Utilities folder inside of the Applications folder and type (then hit enter):
 
 {% highlight python %}
 
