@@ -42,5 +42,4 @@ With your cursor below this chunk of text, hold down delete and remove it all. N
 
 The limitations that [Self Control](http://selfcontrolapp.com) was imposing should be removed.
 
-<p class='endnote'>Confused as to what you just did? Run into trouble? Just want to say hi? Tweet at me at <a href='http://twitter.com/jessepollak'>@jessepollak</a></p>.
-
+<p class='endnote'>Confused as to what you just did? Run into trouble? Just want to say hi? Tweet at me at <a href='http://twitter.com/jessepollak'>@jessepollak</a>.</p>

@@ -302,6 +302,7 @@ ul.posts {
     font-size: 18px;
     color: #AAA;
     text-decoration: none;
+    margin: 40px 0;
   }
   .post .post-footer a:hover {
     color: black;
