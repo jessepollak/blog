@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Replicating Stripe's pay with Stripe button"
+title: "Replicating the Pay With Stripe button"
 description: ""
 category:
 tags: []
