@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Escaping flat land in information design"
-description: ""
+description: "A summary of Envisioning Information by Edward Tufte"
 category:
 tags: []
 ---
@@ -57,5 +57,5 @@ Therefore, Tufte believes that color can improve the information resolution on a
 
 Obviously, computers didn't turn out this way (designers opted for drop shadows to distinguish frames instead), but Tufte's analysis is still interesting.
 
-Chock full of examples, [Envisioning Information](http://refer.ly/agHm) does most of it's teaching through showing, so it's a little hard to convey every lesson in a brief summary, but I figured it was worth a shot. If you're interested, you should [buy it on Amazon](http://refer.ly/agHm).
+Chock full of examples, [Envisioning Information](http://refer.ly/agHm) does most of it's teaching through showing, so it's a little hard to convey every lesson in a brief summary, but I figured it was worth a shot. If enjoyed my summary of [Envisioning Information](http://refer.ly/agHm), but want to learn more, you should [buy it on Amazon](http://refer.ly/agHm).
 
