@@ -325,7 +325,12 @@ ul.posts {
   .post img {
     width: 100%;
   }
-  
+
+  .post h1 {
+    font-size: 30px;
+    margin: 60px 10px;
+  }
+
 #related {
   margin-top: 2em;
   text-align:center;
