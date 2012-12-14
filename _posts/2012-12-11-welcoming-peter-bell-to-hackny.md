@@ -9,9 +9,9 @@ tags: []
 
 Over the summer, [hackNY](http://hackny.org) had the good fortune of welcoming [Peter Bell](https://twitter.com/PeterBell) for one of our weekly tech/entrepreneurship talks. He spoke to us about [choosing the right technologies for a project](http://jessepollak.me/2012/06/25/choosing-the-right-technologies-for-a-hackathon/) and we all left with a better understanding of what it meant to be a technical decision maker.
 
-At the November [NYTM](http://nytm.org), [hackNY](http://hackny.org) announced that thanks to [Speaker Quinn](http://council.nyc.gov/d3/html/members/home.shtml) and the [NYC City Council](http://council.nyc.gov/d3/html/members/home.shtml) we will be welcoming Peter into the family in an even bigger way: he will be working with the wonderful [Manya Ellenberg](https://twitter.com/manyaellenberg) to expand the [hackNY](http://hackny.org) community, improve the [2013 hackNY fellows program](http://apply.hackny.org) and build out the technology that powers [hackNY](http://hackny.org) behind the scenes.
+At the November [NYTM](http://nytm.org), [hackNY](http://hackny.org) announced that thanks to [Speaker Quinn](http://council.nyc.gov/d3/html/members/home.shtml) and the [NYC City Council](http://council.nyc.gov/d3/html/members/home.shtml) we will be welcoming Peter into the family in an even bigger way: he will be working with the wonderful [Manya Ellenberg](https://twitter.com/manyaellenberg) as an evangelist to expand the [hackNY](http://hackny.org) community, improve the [2013 hackNY fellows program](http://apply.hackny.org) and build out the technology that powers [hackNY](http://hackny.org) behind the scenes.
 
-I had the good fortunre of talking to Peter about why he decided to join [hackNY](http://hackny.org). I asked some questions, he gave some answers, and we had a grand old time:
+I had the good fortune of talking to Peter about why he decided to join [hackNY](http://hackny.org) as an evangelist. I asked some questions, he gave some answers, and we had a grand old time:
 
 How did you first get involved with hackNY?
 
@@ -23,7 +23,7 @@ What made you want to work with hackNY?
 
 What are you going to be doing for hackNY over the next few months?
 
->I'll be working with Evan and Chris to continue to refine the details of the role, but the focus is to connect jobseekers with opportunities at local tech companies and serve as a bridge between the City’s colleges and universities and the tech industry. I'll also be writing some code for hackNY to stay relevant as a developer!
+>I'll be working with Evan and Chris to continue to refine the details of the role, but the focus of this evangelist position is to connect jobseekers with opportunities at local tech companies and serve as a bridge between the City’s colleges and universities and the tech industry. I'll also be writing some code for hackNY to stay relevant as a developer!
 
 What are some of the coolest hacks you've done in the past (technical or non technical)?
 
@@ -39,7 +39,7 @@ emacs or vim?
 
 Anything else you'd like to share?
 
->I'm really excited to bring my experience working with local CTO's to build a bridge between students and startup job opportunities. Many smaller startups just don't have the resources to do college tours and often students don't know what to do to get a great startup job. My goal is to start to build some meaningful bridges between the two communities by the end of June 2013 when the project is funded until.
+>I'm really excited to bring my experience working with local CTO's to build a bridge between students and startup job opportunities. Many smaller startups just don't have the resources to do college tours and often students don't know what to do to get a great startup job.
 
 I can speak for everyone when I say that Peter will be a tremendous addition to the [hackNY](http://hackny.org) leadership taem and that we are very excited to welcome him to the [hackNY](http://hackny.org) community.
 
