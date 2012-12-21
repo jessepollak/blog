@@ -34,3 +34,5 @@ Now, click the edit next to 'Login Approvals' and follow the steps that Facebook
 ![login approvals](http://cl.ly/image/0T1Y0Q2I3Y33/Screen%20Shot%202012-12-21%20at%205.13.09%20PM.png)
 
 Enjoy your newly secured Facebook account!
+
+<p class='endnote'>PS. if you're interested in checking out a 2-factor authentication system that is easier to use than usernames and passwords, check out <a href='https://clef.io'>Clef</a>, the startup I'm working on right now.</p>
