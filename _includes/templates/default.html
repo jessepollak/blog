@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
 <head>
-   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-   <title>{{ page.title }}</title>
-   <meta name="author" content="{{ site.author.name }}" />
-   <link href="http://feeds.feedburner.com/{{ site.author.feedburner }}" rel="alternate" title="your title" type="application/atom+xml" />
-   <!-- Homepage CSS -->
-   <link rel="stylesheet" href="{{ ASSET_PATH }}css/foundation.css" type="text/css"/>
-   <link rel="stylesheet" href="{{ ASSET_PATH }}css/screen.css" type="text/css" media="screen, projection" />
-   <link rel="stylesheet" href="{{ ASSET_PATH }}css/pygments.css" type="text/css"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>{{ page.title }}</title>
+    <meta name="author" content="{{ site.author.name }}" />
+    <link href="http://feeds.feedburner.com/{{ site.author.feedburner }}" rel="alternate" title="your title" type="application/atom+xml" />
+    <!-- Homepage CSS -->
+    <link rel="stylesheet" href="{{ ASSET_PATH }}css/foundation.css" type="text/css"/>
+    <link rel="stylesheet" href="{{ ASSET_PATH }}css/screen.css" type="text/css" media="screen, projection" />
+    <link rel="stylesheet" href="{{ ASSET_PATH }}css/pygments.css" type="text/css"/>
+    <link rel="openid2.provider" href="https://clef.io" />
+    <meta http-equiv="X-XRDS-Location" content="https://clef.io" />
+    <meta http-equiv="X-YADIS-Location" content="https://clef.io" />
 </head>
 <body>
 
@@ -19,7 +22,7 @@
     </a>
     <div class='nav'>
       <a class='home' href="{{ HOME_PATH }}">{{ site.title }}</a>
-      
+
       <div class='site-links'>
         <a class="extra" href="{{ BASE_PATH }}{{ site.JB.things_path }}">things</a>
         <a class="extra" href="{{ BASE_PATH }}{{ site.JB.archive_path }}">blog</a>
@@ -33,9 +36,9 @@
   </div>
 
   <div class='content'>
-  
+
     {{ content }}
-  
+
 <!--     <div class="footer">
       <div class="contact">
         <p>

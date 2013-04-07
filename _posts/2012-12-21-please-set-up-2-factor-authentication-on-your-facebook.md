@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Please set up 2-factor authentication on your Facebook"
+title: "Please setup 2-factor authentication on your Facebook"
 description: ""
 category:
 tags: []
